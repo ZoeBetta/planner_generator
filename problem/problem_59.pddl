@@ -1,0 +1,120 @@
+(define (problem spot_problem_59)
+  (:domain simple)
+
+(:objects
+  spot - robot
+  exit - location
+  r00f0 - location
+  r01f0 - location
+  r02f0 - location
+  r03f0 - location
+  r10f0 - location
+  r11f0 - location
+  r12f0 - location
+  r13f0 - location
+  r20f0 - location
+  r21f0 - location
+  r22f0 - location
+  r23f0 - location
+  r30f0 - location
+  r31f0 - location
+  r32f0 - location
+  r33f0 - location
+)
+
+(:init
+  (is_exit exit)
+  (is_free spot)
+  (battery_checked spot)
+  (robot_at spot r22f0)
+  (emergency spot)
+  (connected r10f0 r00f0)
+  (connected r00f0 r10f0)
+  (connected r01f0 r00f0)
+  (connected r00f0 r01f0)
+  (connected r11f0 r01f0)
+  (connected r01f0 r11f0)
+  (connected r02f0 r01f0)
+  (connected r01f0 r02f0)
+  (connected r12f0 r02f0)
+  (connected r02f0 r12f0)
+  (connected r03f0 r02f0)
+  (connected r02f0 r03f0)
+  (connected r13f0 r03f0)
+  (connected r03f0 r13f0)
+  (connected r20f0 r10f0)
+  (connected r10f0 r20f0)
+  (connected r11f0 r10f0)
+  (connected r10f0 r11f0)
+  (connected r21f0 r11f0)
+  (connected r11f0 r21f0)
+  (connected r12f0 r11f0)
+  (connected r11f0 r12f0)
+  (connected r13f0 r12f0)
+  (connected r12f0 r13f0)
+  (connected r21f0 r20f0)
+  (connected r20f0 r21f0)
+  (connected r31f0 r21f0)
+  (connected r21f0 r31f0)
+  (connected r22f0 r21f0)
+  (connected r21f0 r22f0)
+  (connected r32f0 r22f0)
+  (connected r22f0 r32f0)
+  (connected r23f0 r22f0)
+  (connected r22f0 r23f0)
+  (connected r33f0 r23f0)
+  (connected r23f0 r33f0)
+  (connected r31f0 r30f0)
+  (connected r30f0 r31f0)
+  (connected r32f0 r31f0)
+  (connected r31f0 r32f0)
+  (connected r33f0 r32f0)
+  (connected r32f0 r33f0)
+  (connected exit r00f0)
+  (connected r00f0 exit)
+  (door_notchecked r00f0)
+  (door_notchecked r01f0)
+  (door_notchecked r02f0)
+  (door_closed r03f0)
+  (door_notchecked r10f0)
+  (door_notchecked r11f0)
+  (door_closed r12f0)
+  (door_blocked r13f0)
+  (door_notchecked r20f0)
+  (door_notchecked r21f0)
+  (door_closed r22f0)
+  (door_notchecked r23f0)
+  (door_blocked r30f0)
+  (door_notchecked r31f0)
+  (door_closed r32f0)
+  (door_notchecked r33f0)
+)
+
+(:goal
+(and
+  (searched spot r00f0) 
+  (environment_checked r00f0) 
+  (searched spot r01f0) 
+  (environment_checked r01f0) 
+  (searched spot r03f0) 
+  (environment_checked r03f0) 
+  (searched spot r10f0) 
+  (environment_checked r10f0) 
+  (searched spot r11f0) 
+  (environment_checked r11f0) 
+  (searched spot r12f0) 
+  (environment_checked r12f0) 
+  (searched spot r13f0) 
+  (searched spot r20f0) 
+  (environment_checked r20f0) 
+  (searched spot r21f0) 
+  (environment_checked r21f0) 
+  (searched spot r22f0) 
+  (environment_checked r22f0) 
+  (searched spot r30f0) 
+  (searched spot r31f0) 
+  (environment_checked r31f0) 
+  (searched spot r32f0) 
+  (environment_checked r32f0) 
+)
+))

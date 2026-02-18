@@ -1,0 +1,42 @@
+Constructing lookup tables: [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+Post filtering unreachable actions:  [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+Pruning (move spot r22f3 r21f3) - never appeared in initial RPG
+Pruning (move spot r21f3 r22f3) - never appeared in initial RPG
+Pruning (search spot r21f3) - never appeared in initial RPG
+Pruning (search spot r22f3) - never appeared in initial RPG
+Pruning (dialog r21f3 p1 spot) - never appeared in initial RPG
+Pruning (dialog r22f3 p1 spot) - never appeared in initial RPG
+Pruning (dialog r21f3 p2 spot) - never appeared in initial RPG
+Pruning (dialog r22f3 p2 spot) - never appeared in initial RPG
+Pruning (dialog r21f3 p3 spot) - never appeared in initial RPG
+Pruning (dialog r22f3 p3 spot) - never appeared in initial RPG
+Pruning (dialog r21f3 p4 spot) - never appeared in initial RPG
+Pruning (dialog r22f3 p4 spot) - never appeared in initial RPG
+Pruning (dialog r21f3 p5 spot) - never appeared in initial RPG
+Pruning (dialog r22f3 p5 spot) - never appeared in initial RPG
+Pruning (report r21f3 p1 spot) - never appeared in initial RPG
+Pruning (report r22f3 p1 spot) - never appeared in initial RPG
+Pruning (report r21f3 p2 spot) - never appeared in initial RPG
+Pruning (report r22f3 p2 spot) - never appeared in initial RPG
+Pruning (report r21f3 p3 spot) - never appeared in initial RPG
+Pruning (report r22f3 p3 spot) - never appeared in initial RPG
+Pruning (report r21f3 p4 spot) - never appeared in initial RPG
+Pruning (report r22f3 p4 spot) - never appeared in initial RPG
+Pruning (report r21f3 p5 spot) - never appeared in initial RPG
+Pruning (report r22f3 p5 spot) - never appeared in initial RPG
+Pruning (check spot r21f3) - never appeared in initial RPG
+Pruning (check spot r22f3) - never appeared in initial RPG
+Pruning (checkgas spot r21f3) - never appeared in initial RPG
+Pruning (checkgas spot r22f3) - never appeared in initial RPG
+Pruning (checkcrack spot r21f3) - never appeared in initial RPG
+Pruning (checkcrack spot r22f3) - never appeared in initial RPG
+Pruning (checktemp spot r21f3) - never appeared in initial RPG
+Pruning (checktemp spot r22f3) - never appeared in initial RPG
+Pruning (checklink spot r22f3 r21f3) - never appeared in initial RPG
+Pruning (checklink spot r21f3 r22f3) - never appeared in initial RPG
+Pruning (checkroomopen spot r21f3) - never appeared in initial RPG
+Pruning (checkroomopen spot r22f3) - never appeared in initial RPG
+72% of the ground temporal actions in this problem are compression-safe
+;; Problem unsolvable!
+; Time 0.05
+[ros2run]: Process exited with failure 1

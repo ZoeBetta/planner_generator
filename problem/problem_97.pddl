@@ -1,0 +1,199 @@
+(define (problem spot_problem_97)
+  (:domain simple)
+
+(:objects
+  spot - robot
+  exit - location
+  r00f0 - location
+  r01f0 - location
+  r02f0 - location
+  r03f0 - location
+  r04f0 - location
+  r10f0 - location
+  r11f0 - location
+  r12f0 - location
+  r13f0 - location
+  r14f0 - location
+  r20f0 - location
+  r21f0 - location
+  r22f0 - location
+  r23f0 - location
+  r24f0 - location
+  r30f0 - location
+  r31f0 - location
+  r32f0 - location
+  r33f0 - location
+  r34f0 - location
+  r40f0 - location
+  r41f0 - location
+  r42f0 - location
+  r43f0 - location
+  r44f0 - location
+  p1 - person
+  p2 - person
+  p3 - person
+  p4 - person
+  p5 - person
+)
+
+(:init
+  (is_exit exit)
+  (is_free spot)
+  (battery_checked spot)
+  (robot_at spot r13f0)
+  (not_emergency spot)
+  (connected r10f0 r00f0)
+  (connected r00f0 r10f0)
+  (connected r01f0 r00f0)
+  (connected r00f0 r01f0)
+  (connected r11f0 r01f0)
+  (connected r01f0 r11f0)
+  (connected r02f0 r01f0)
+  (connected r01f0 r02f0)
+  (connected r12f0 r02f0)
+  (connected r02f0 r12f0)
+  (connected r03f0 r02f0)
+  (connected r02f0 r03f0)
+  (connected r13f0 r03f0)
+  (connected r03f0 r13f0)
+  (connected r04f0 r03f0)
+  (connected r03f0 r04f0)
+  (connected r14f0 r04f0)
+  (connected r04f0 r14f0)
+  (connected r20f0 r10f0)
+  (connected r10f0 r20f0)
+  (connected r11f0 r10f0)
+  (connected r10f0 r11f0)
+  (connected r21f0 r11f0)
+  (connected r11f0 r21f0)
+  (connected r12f0 r11f0)
+  (connected r11f0 r12f0)
+  (connected r22f0 r12f0)
+  (connected r12f0 r22f0)
+  (connected r13f0 r12f0)
+  (connected r12f0 r13f0)
+  (connected r23f0 r13f0)
+  (connected r13f0 r23f0)
+  (connected r14f0 r13f0)
+  (connected r13f0 r14f0)
+  (connected r24f0 r14f0)
+  (connected r14f0 r24f0)
+  (connected r30f0 r20f0)
+  (connected r20f0 r30f0)
+  (connected r31f0 r21f0)
+  (connected r21f0 r31f0)
+  (connected r22f0 r21f0)
+  (connected r21f0 r22f0)
+  (connected r32f0 r22f0)
+  (connected r22f0 r32f0)
+  (connected r23f0 r22f0)
+  (connected r22f0 r23f0)
+  (connected r33f0 r23f0)
+  (connected r23f0 r33f0)
+  (connected r24f0 r23f0)
+  (connected r23f0 r24f0)
+  (connected r34f0 r24f0)
+  (connected r24f0 r34f0)
+  (connected r31f0 r30f0)
+  (connected r30f0 r31f0)
+  (connected r41f0 r31f0)
+  (connected r31f0 r41f0)
+  (connected r32f0 r31f0)
+  (connected r31f0 r32f0)
+  (connected r42f0 r32f0)
+  (connected r32f0 r42f0)
+  (connected r33f0 r32f0)
+  (connected r32f0 r33f0)
+  (connected r43f0 r33f0)
+  (connected r33f0 r43f0)
+  (connected r34f0 r33f0)
+  (connected r33f0 r34f0)
+  (connected r44f0 r34f0)
+  (connected r34f0 r44f0)
+  (connected r41f0 r40f0)
+  (connected r40f0 r41f0)
+  (connected r42f0 r41f0)
+  (connected r41f0 r42f0)
+  (connected r43f0 r42f0)
+  (connected r42f0 r43f0)
+  (connected r44f0 r43f0)
+  (connected r43f0 r44f0)
+  (connected exit r00f0)
+  (connected r00f0 exit)
+  (door_closed r00f0)
+  (door_notchecked r01f0)
+  (door_notchecked r02f0)
+  (door_closed r03f0)
+  (door_notchecked r04f0)
+  (door_closed r10f0)
+  (door_blocked r11f0)
+  (door_notchecked r12f0)
+  (door_notchecked r13f0)
+  (person_detected p1 r13f0)
+  (door_notchecked r14f0)
+  (door_notchecked r20f0)
+  (door_closed r21f0)
+  (door_blocked r22f0)
+  (door_blocked r23f0)
+  (person_detected p2 r23f0)
+  (door_notchecked r24f0)
+  (person_detected p3 r24f0)
+  (door_notchecked r30f0)
+  (door_notchecked r31f0)
+  (person_detected p4 r31f0)
+  (door_closed r32f0)
+  (door_notchecked r33f0)
+  (door_closed r34f0)
+  (door_notchecked r40f0)
+  (door_closed r41f0)
+  (door_closed r42f0)
+  (door_closed r43f0)
+  (door_closed r44f0)
+)
+
+(:goal
+(and
+  (searched spot r01f0) 
+  (environment_checked r01f0) 
+  (searched spot r02f0) 
+  (environment_checked r02f0) 
+  (searched spot r04f0) 
+  (environment_checked r04f0) 
+  (searched spot r10f0) 
+  (environment_checked r10f0) 
+  (searched spot r11f0) 
+  (person_evaluated p1) 
+  (person_reported p1) 
+  (dialog_finished p1) 
+  (searched spot r13f0) 
+  (environment_checked r13f0) 
+  (searched spot r14f0) 
+  (environment_checked r14f0) 
+  (searched spot r20f0) 
+  (environment_checked r20f0) 
+  (searched spot r21f0) 
+  (environment_checked r21f0) 
+  (searched spot r22f0) 
+  (searched spot r23f0) 
+  (person_evaluated p3) 
+  (person_reported p3) 
+  (dialog_finished p3) 
+  (person_evaluated p4) 
+  (person_reported p4) 
+  (dialog_finished p4) 
+  (searched spot r31f0) 
+  (environment_checked r31f0) 
+  (searched spot r32f0) 
+  (environment_checked r32f0) 
+  (searched spot r33f0) 
+  (environment_checked r33f0) 
+  (searched spot r34f0) 
+  (environment_checked r34f0) 
+  (searched spot r42f0) 
+  (environment_checked r42f0) 
+  (searched spot r43f0) 
+  (environment_checked r43f0) 
+  (searched spot r44f0) 
+  (environment_checked r44f0) 
+)
+))
