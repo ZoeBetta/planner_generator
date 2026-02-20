@@ -1,6 +1,474 @@
 Constructing lookup tables: [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
 Post filtering unreachable actions:  [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
-79% of the ground temporal actions in this problem are compression-safe
-b (1026.000 | 5.000)b (1025.000 | 10.001)b (1024.000 | 15.002)b (1023.000 | 20.003)b (1022.000 | 25.004)b (1021.000 | 30.005)b (1020.000 | 35.006)b (1019.000 | 35.006)b (1018.000 | 40.007)b (1017.000 | 45.008)b (1016.000 | 50.009)b (1015.000 | 55.010)b (1014.000 | 60.011)b (1013.000 | 75.013)b (1012.000 | 80.014)b (1011.000 | 85.015)b (1010.000 | 85.015)b (1009.000 | 90.016)b (1008.000 | 95.017)b (1007.000 | 100.018)b (1006.000 | 105.019)b (1005.000 | 110.020)b (1004.000 | 125.022)b (1003.000 | 130.023)b (1002.000 | 135.024)b (1001.000 | 140.025)b (1000.000 | 140.025)b (999.000 | 145.026)b (998.000 | 155.028)b (997.000 | 160.029)b (996.000 | 170.030)b (995.000 | 170.030)b (994.000 | 175.031)b (993.000 | 180.032)b (992.000 | 185.033)b (991.000 | 185.033)b (990.000 | 190.034)b (989.000 | 200.036)b (988.000 | 205.037)b (987.000 | 215.038)b (986.000 | 215.038)b (985.000 | 225.041)b (984.000 | 230.042)b (983.000 | 235.043)b (982.000 | 235.043)b (981.000 | 240.044)b (980.000 | 245.045)b (979.000 | 250.046)b (978.000 | 255.047)b (977.000 | 260.048)b (976.000 | 275.050)b (975.000 | 280.051)b (974.000 | 285.052)b (973.000 | 285.052)b (972.000 | 290.053)b (971.000 | 295.054)b (970.000 | 300.055)b (969.000 | 305.056)b (968.000 | 310.057)b (967.000 | 325.059)b (966.000 | 330.060)b (965.000 | 335.061)b (964.000 | 335.061)b (963.000 | 340.062)b (962.000 | 345.063)b (961.000 | 350.064)b (960.000 | 355.065)b (959.000 | 360.066)b (958.000 | 375.068)b (957.000 | 380.069)b (956.000 | 385.070)b (955.000 | 390.071)b (954.000 | 395.072)b (953.000 | 395.072)b (952.000 | 400.073)b (951.000 | 405.074)b (950.000 | 410.075)b (949.000 | 415.076)b (948.000 | 420.077)b (947.000 | 435.079)b (946.000 | 440.080)b (945.000 | 445.081)b (944.000 | 450.082)b (943.000 | 450.082)b (942.000 | 455.083)b (941.000 | 470.086)b (940.000 | 475.086)b (939.000 | 480.087)b (938.000 | 480.087)b (937.000 | 485.088)b (936.000 | 490.089)b (935.000 | 495.090)b (934.000 | 500.091)b (933.000 | 500.091)b (932.000 | 505.092)b (931.000 | 510.093)b (930.000 | 515.094)b (929.000 | 520.095)b (928.000 | 525.096)b (927.000 | 540.098)b (926.000 | 545.099)b (925.000 | 550.100)b (924.000 | 550.100)b (923.000 | 555.101)b (922.000 | 560.102)b (921.000 | 565.103)b (920.000 | 570.104)b (919.000 | 575.105)b (918.000 | 590.107)b (917.000 | 595.108)b (916.000 | 600.109)b (915.000 | 600.109)b (914.000 | 605.110)b (913.000 | 615.112)b (912.000 | 620.113)b (911.000 | 620.113)b (910.000 | 625.114)b (909.000 | 630.115)b (908.000 | 635.116)b (907.000 | 650.118)b (906.000 | 655.119)b (905.000 | 660.120)b (904.000 | 660.120)b (903.000 | 665.121)b (902.000 | 670.122)b (901.000 | 675.123)b (900.000 | 680.124)b (899.000 | 685.125)b (898.000 | 700.127)b (897.000 | 705.128)b (896.000 | 705.128)b (895.000 | 710.129)b (894.000 | 715.130)b (893.000 | 720.131)b (892.000 | 725.132)b (891.000 | 730.133)b (890.000 | 745.135)b (889.000 | 750.136)b (888.000 | 750.136)b (887.000 | 755.137)b (885.000 | 765.139)b (884.000 | 770.140)b (883.000 | 775.141)b (880.000 | 795.144)b (879.000 | 805.145)b (878.000 | 805.145)b (877.000 | 810.146)b (876.000 | 815.147)b (875.000 | 820.148)b (874.000 | 820.148)b (873.000 | 825.149)b (872.000 | 830.150)b (871.000 | 835.151)b (870.000 | 840.152)b (869.000 | 845.153)b (868.000 | 855.153)b (867.000 | 860.154)b (866.000 | 860.154)b (865.000 | 865.155)b (864.000 | 870.156)b (863.000 | 875.157)b (862.000 | 880.158)b (861.000 | 880.158)b (860.000 | 885.159)b (859.000 | 900.162)b (858.000 | 905.162)b (856.000 | 915.164)b (855.000 | 920.165)b (854.000 | 920.165)b (853.000 | 925.166)b (851.000 | 935.168)b (849.000 | 940.169)b (848.000 | 945.170)b (847.000 | 960.172)b (846.000 | 965.173)b (844.000 | 975.175)b (843.000 | 990.177)b (842.000 | 1000.179)b (841.000 | 1015.181)b (840.000 | 1030.183)b (839.000 | 1030.183)b (838.000 | 1035.184)b (837.000 | 1035.184)b (836.000 | 1040.185)b (835.000 | 1045.186)b (834.000 | 1050.187)b (832.000 | 1055.188)b (831.000 | 1060.189)b (830.000 | 1080.192)b (829.000 | 1090.193)b (828.000 | 1090.193)b (827.000 | 1095.194)b (826.000 | 1095.194)b (825.000 | 1100.195)b (824.000 | 1105.196)b (823.000 | 1110.197)b (822.000 | 1115.198)b (821.000 | 1120.199)b (820.000 | 1135.201)b (819.000 | 1140.202)b (818.000 | 1145.203)b (817.000 | 1145.203)b (816.000 | 1150.204)b (814.000 | 1160.206)b (813.000 | 1165.207)b (812.000 | 1170.208)b (811.000 | 1190.211)b (810.000 | 1195.212)b (809.000 | 1195.212)b (808.000 | 1200.213)b (807.000 | 1215.216)b (806.000 | 1220.217)b (805.000 | 1225.217)b (804.000 | 1245.220)b (803.000 | 1245.220)b (802.000 | 1250.221)b (801.000 | 1255.222)b (799.000 | 1255.222)b (798.000 | 1260.223)b (797.000 | 1270.225)b (795.000 | 1275.226)b (794.000 | 1280.227)b (793.000 | 1300.230)
-Resorting to best-first search
-b (1026.000 | 5.000)b (1025.000 | 10.001)b (1024.000 | 15.002)b (1023.000 | 20.003)b (1022.000 | 25.004)b (1021.000 | 30.005)b (1020.000 | 35.006)b (1019.000 | 35.006)b (1018.000 | 40.007)b (1017.000 | 45.008)b (1016.000 | 50.009)b (1015.000 | 55.010)b (1014.000 | 60.011)b (1013.000 | 75.013)b (1012.000 | 80.014)b (1011.000 | 85.015)b (1010.000 | 85.015)b (1009.000 | 90.016)b (1008.000 | 95.017)b (1007.000 | 100.018)b (1006.000 | 105.019)b (1005.000 | 110.020)b (1004.000 | 125.022)b (1003.000 | 130.023)b (1002.000 | 135.024)b (1001.000 | 140.025)b (1000.000 | 140.025)b (999.000 | 145.026)b (998.000 | 150.027)b (997.000 | 155.028)b (996.000 | 160.029)b (995.000 | 165.030)b (994.000 | 175.032)b (993.000 | 180.033)b (992.000 | 185.034)b (991.000 | 185.034)b (990.000 | 190.035)b (989.000 | 195.036)b (988.000 | 200.037)b (987.000 | 205.038)b (986.000 | 210.039)b (985.000 | 225.041)b (984.000 | 230.042)b (983.000 | 235.043)b (982.000 | 235.043)b (981.000 | 240.044)b (980.000 | 245.045)b (979.000 | 250.046)b (978.000 | 255.047)b (977.000 | 260.048)b (976.000 | 275.050)b (975.000 | 280.051)b (974.000 | 285.052)b (973.000 | 285.052)b (972.000 | 290.053)b (971.000 | 295.054)b (970.000 | 300.055)b (969.000 | 305.056)b (968.000 | 310.057)b (967.000 | 325.059)b (966.000 | 330.060)b (965.000 | 335.061)b (964.000 | 335.061)b (963.000 | 340.062)b (962.000 | 345.063)b (961.000 | 350.064)b (960.000 | 355.065)b (959.000 | 360.066)b (958.000 | 375.068)b (957.000 | 380.069)b (956.000 | 385.070)b (955.000 | 385.070)b (954.000 | 390.071)b (953.000 | 395.072)b (952.000 | 400.073)b (951.000 | 405.074)b (950.000 | 410.075)b (949.000 | 420.077)b (948.000 | 425.078)b (947.000 | 430.079)b (946.000 | 435.080)b (945.000 | 435.080)b (944.000 | 440.081)b (943.000 | 445.082)b (942.000 | 450.083)b (941.000 | 455.084)b (940.000 | 470.087)b (940.000 | 465.086)b (939.000 | 485.089)b (938.000 | 485.089)b (937.000 | 490.090)b (936.000 | 495.091)b (935.000 | 500.092)b (934.000 | 500.092)b (933.000 | 505.093)b (932.000 | 530.098)b (931.000 | 535.099)b (931.000 | 525.096)b (930.000 | 530.097)b (929.000 | 530.097)b (928.000 | 535.098)b (927.000 | 540.099)b (926.000 | 545.100)b (925.000 | 550.101)b (924.000 | 555.102)b (923.000 | 570.105)b (922.000 | 575.106)b (921.000 | 575.106)b (920.000 | 580.107)b (919.000 | 585.108)b (918.000 | 590.109)b (917.000 | 595.110)b (916.000 | 600.111)b (915.000 | 620.115)b (914.000 | 625.116)b (913.000 | 630.117)b (912.000 | 630.117)b (911.000 | 635.118)b (910.000 | 640.119)b (909.000 | 645.120)b (908.000 | 650.121)b (907.000 | 655.122)b (906.000 | 670.124)b (905.000 | 675.125)b (904.000 | 680.126)b (903.000 | 680.126)b (902.000 | 685.127)b (901.000 | 690.128)b (900.000 | 695.129)b (899.000 | 700.130)b (898.000 | 705.131)b (897.000 | 720.133)b (896.000 | 725.134)b (895.000 | 730.135)b (894.000 | 730.135)b (893.000 | 735.136)b (892.000 | 740.137)b (891.000 | 745.138)b (890.000 | 750.139)b (889.000 | 755.140)b (888.000 | 775.143)b (887.000 | 780.144)b (886.000 | 780.144)b (885.000 | 785.145)b (884.000 | 790.146)b (883.000 | 795.147)b (882.000 | 795.147)b (881.000 | 800.148)b (880.000 | 805.149)b (879.000 | 810.150)b (878.000 | 815.151)b (877.000 | 820.152)b (876.000 | 840.155)b (875.000 | 845.156)b (874.000 | 845.156)b (873.000 | 850.157)b (872.000 | 855.158)b (871.000 | 855.158)b (870.000 | 860.159)b (869.000 | 865.160)b (868.000 | 870.161)b (867.000 | 875.162)b (866.000 | 880.163)b (865.000 | 905.167)b (864.000 | 905.167)b (863.000 | 910.168)b (861.000 | 915.169)b (860.000 | 920.170)b (859.000 | 920.170)b (858.000 | 925.171)b (857.000 | 930.172)b (856.000 | 935.173)b (855.000 | 940.174)b (854.000 | 960.177)b (853.000 | 965.178)b (852.000 | 965.178)b (851.000 | 970.179)b (850.000 | 975.180)b (849.000 | 975.180)b (848.000 | 980.181)b (847.000 | 985.182)b (846.000 | 1015.187)b (845.000 | 1020.188)b (844.000 | 1025.189)b (843.000 | 1030.190)b (842.000 | 1030.190)b (840.000 | 1030.190)b (839.000 | 1035.191)b (838.000 | 1040.192)b (837.000 | 1045.193)b (836.000 | 1050.194)b (835.000 | 1070.197)b (834.000 | 1075.198)b (832.000 | 1080.199)b (831.000 | 1085.200)b (830.000 | 1085.200)b (829.000 | 1090.201)b (828.000 | 1090.201)b (827.000 | 1095.202)b (826.000 | 1100.203)b (825.000 | 1105.204)b (823.000 | 1125.207)b (822.000 | 1125.207)b (821.000 | 1130.208)b (820.000 | 1135.209)b (820.000 | 1130.208)b (819.000 | 1135.209)b (818.000 | 1145.211)b (817.000 | 1150.212)b (816.000 | 1155.213)b (815.000 | 1160.214)b (814.000 | 1170.216)b (811.000 | 1180.217)b (810.000 | 1180.217)b (809.000 | 1185.218)b (808.000 | 1190.219)b (807.000 | 1200.221)b (806.000 | 1205.222)b (805.000 | 1210.223)b (804.000 | 1215.224)b (803.000 | 1220.225)b (802.000 | 1230.226)b (801.000 | 1235.227)b (800.000 | 1240.228)b (799.000 | 1240.228)b (798.000 | 1245.229)b (797.000 | 1250.230)b (796.000 | 1250.230)b (795.000 | 1255.231)b (794.000 | 1260.232)b (793.000 | 1265.233)b (792.000 | 1270.234)b (791.000 | 1275.235)b (790.000 | 1295.239)b (789.000 | 1300.240)b (788.000 | 1300.240)b (787.000 | 1305.241)b (786.000 | 1305.241)b (785.000 | 1310.242)b (784.000 | 1315.243)b (783.000 | 1320.244)b (782.000 | 1335.247)b (780.000 | 1345.249)b (779.000 | 1350.250)b (778.000 | 1350.250)b (777.000 | 1355.251)b (775.000 | 1360.252)b (774.000 | 1365.253)b (773.000 | 1370.254)b (772.000 | 1395.258)b (771.000 | 1400.259)b (770.000 | 1400.259)b (769.000 | 1405.260)b (768.000 | 1410.261)b (767.000 | 1410.261)b (766.000 | 1415.262)b (765.000 | 1420.263)b (764.000 | 1445.268)b (764.000 | 1445.267)b (763.000 | 1450.268)b (762.000 | 1450.268)b (761.000 | 1455.269)b (760.000 | 1460.270)b (759.000 | 1460.270)b (758.000 | 1465.271)b (757.000 | 1470.272)b (756.000 | 1475.273)b (755.000 | 1475.273)b (754.000 | 1480.274)b (753.000 | 1500.277)b (752.000 | 1505.278)b (751.000 | 1510.279)b (750.000 | 1510.279)b (749.000 | 1515.280)b (748.000 | 1520.281)b (747.000 | 1525.282)b (746.000 | 1530.283)b (745.000 | 1535.284)b (744.000 | 1550.286)b (743.000 | 1555.287)b (742.000 | 1555.287)b (741.000 | 1560.288)b (740.000 | 1565.289)b (739.000 | 1570.290)b (738.000 | 1575.291)b (737.000 | 1580.292)b (736.000 | 1600.296)b (735.000 | 1605.297)b (734.000 | 1610.298)b (733.000 | 1615.299)b (732.000 | 1620.300)b (731.000 | 1620.300)b (730.000 | 1625.301)b (729.000 | 1630.302)b (728.000 | 1635.303)b (727.000 | 1635.303)b (726.000 | 1640.304)b (725.000 | 1650.306)b (724.000 | 1660.307)b (723.000 | 1660.307)b (722.000 | 1665.308)b (721.000 | 1670.309)b (719.000 | 1670.309)b (718.000 | 1675.310)b (717.000 | 1680.311)b (716.000 | 1685.312)b (715.000 | 1690.313)b (714.000 | 1710.316)b (713.000 | 1715.317)b (712.000 | 1715.317)b (711.000 | 1720.318)b (710.000 | 1725.319)b (710.000 | 1720.319)b (709.000 | 1725.319)b (708.000 | 1730.320)b (707.000 | 1735.321)b (706.000 | 1735.321)b (705.000 | 1740.322)b (704.000 | 1750.324)b (703.000 | 1760.325)b (702.000 | 1765.326)b (701.000 | 1765.326)b (700.000 | 1770.327)b (699.000 | 1775.328)b (698.000 | 1780.329)b (697.000 | 1780.329)b (696.000 | 1785.330)b (695.000 | 1805.334)b (694.000 | 1810.335)b (693.000 | 1810.335)b (692.000 | 1815.336)b (691.000 | 1820.337)b (690.000 | 1825.338)b (689.000 | 1825.338)b (688.000 | 1830.339)b (687.000 | 1855.343)b (686.000 | 1860.344)b (684.000 | 1860.344)b (683.000 | 1865.345)b (682.000 | 1870.346)b (681.000 | 1875.347)b (680.000 | 1880.348)b (679.000 | 1900.351)b (678.000 | 1905.352)b (677.000 | 1905.352)b (676.000 | 1910.353)b (675.000 | 1915.354)b (674.000 | 1915.354)b (673.000 | 1920.355)b (672.000 | 1925.356)b (669.000 | 1950.360)b (668.000 | 1955.361)b (667.000 | 1955.361)b (666.000 | 1960.362)b (664.000 | 1965.363)b (663.000 | 1970.364)b (662.000 | 1970.364)b (661.000 | 1975.365)b (660.000 | 1980.366)b (659.000 | 1985.367)b (658.000 | 1990.368)b (657.000 | 2010.371)b (656.000 | 2015.372)b (655.000 | 2015.372)b (654.000 | 2020.373)b (653.000 | 2025.374)b (652.000 | 2025.374)b (651.000 | 2030.375)b (650.000 | 2035.376)b (649.000 | 2065.381)b (648.000 | 2070.382)b (646.000 | 2075.383)b (645.000 | 2080.384)b (645.000 | 2080.383)b (644.000 | 2080.384)b (643.000 | 2085.385)b (643.000 | 2080.385)b (642.000 | 2085.385)b (641.000 | 2090.386)b (640.000 | 2095.387)b (639.000 | 2100.388)b (638.000 | 2120.391)b (637.000 | 2125.392)b (636.000 | 2130.393)b (635.000 | 2130.393)b (634.000 | 2135.394)b (633.000 | 2135.394)b (632.000 | 2140.395)b (631.000 | 2145.396)b (630.000 | 2150.397)b (628.000 | 2160.399)b (627.000 | 2175.402)b (626.000 | 2180.403)b (625.000 | 2185.404)b (624.000 | 2190.405)b (623.000 | 2195.406)b (622.000 | 2200.407)b (621.000 | 2205.408)b (620.000 | 2230.413)b (619.000 | 2230.413)b (618.000 | 2235.414)b (617.000 | 2240.415)b (616.000 | 2245.416)b (615.000 | 2250.417)b (614.000 | 2255.418)b (613.000 | 2260.419)b (612.000 | 2265.420)b (610.000 | 2280.423)b (609.000 | 2290.424)b (608.000 | 2290.424)b (607.000 | 2295.425)b (606.000 | 2300.426)b (605.000 | 2300.426)b (604.000 | 2305.427)b (603.000 | 2310.428)b (602.000 | 2315.429)b (601.000 | 2320.430)b (600.000 | 2325.431)b (599.000 | 2340.433)b (598.000 | 2345.434)b (597.000 | 2345.434)b (596.000 | 2350.435)b (595.000 | 2355.436)b (594.000 | 2360.437)b (593.000 | 2365.438)b (592.000 | 2370.439)b (591.000 | 2390.442)b (590.000 | 2395.443)b (589.000 | 2395.443)b (588.000 | 2400.444)b (587.000 | 2405.445)b (586.000 | 2405.445)b (585.000 | 2410.446)b (584.000 | 2415.447)b (583.000 | 2420.448)b (582.000 | 2425.449)b (581.000 | 2430.450)b (580.000 | 2445.453)b (579.000 | 2450.454)b (578.000 | 2455.455)b (577.000 | 2455.455)b (576.000 | 2460.456)b (575.000 | 2465.457)b (574.000 | 2470.458)b (573.000 | 2475.459)b (572.000 | 2480.460)b (571.000 | 2485.461)b (567.000 | 2495.463)b (566.000 | 2505.464)b (565.000 | 2505.464)b (564.000 | 2510.465)b (563.000 | 2510.465)b (562.000 | 2515.466)b (561.000 | 2515.466)b (560.000 | 2520.467)b (559.000 | 2525.468)b (558.000 | 2530.469)b (557.000 | 2540.471)b (555.000 | 2545.471)b (554.000 | 2550.472)b (553.000 | 2550.472)b (552.000 | 2555.473)b (551.000 | 2555.473)b (550.000 | 2560.474)b (549.000 | 2565.475)b (548.000 | 2570.476)b (547.000 | 2575.477)b (546.000 | 2580.478)b (545.000 | 2585.479)b (544.000 | 2590.480)b (543.000 | 2595.481)b (542.000 | 2595.481)b (541.000 | 2600.482)b (540.000 | 2605.483)b (539.000 | 2610.484)b (538.000 | 2615.485)b (537.000 | 2620.486)b (536.000 | 2625.487)b (535.000 | 2630.488)b (534.000 | 2635.489)b (533.000 | 2640.490)b (532.000 | 2645.491)b (531.000 | 2650.492)b (530.000 | 2655.493)b (529.000 | 2660.494)b (528.000 | 2665.495)b (527.000 | 2670.496)b (526.000 | 2680.498)b (525.000 | 2690.500)b (524.000 | 2700.504)b (522.000 | 2715.504)b (520.000 | 2720.504)b (519.000 | 2720.505)b (518.000 | 2720.506)b (517.000 | 2725.506)b (516.000 | 2730.507)b (515.000 | 2740.509)b (514.000 | 2750.510)b (512.000 | 2750.510)b (511.000 | 2755.511)b (510.000 | 2760.512)b (509.000 | 2765.513)b (508.000 | 2770.514)b (507.000 | 2780.516)b (506.000 | 2800.519)b (505.000 | 2800.519)b (504.000 | 2805.520)b (503.000 | 2810.521)b (502.000 | 2815.522)b (501.000 | 2820.523)b (500.000 | 2825.524)b (499.000 | 2840.527)b (498.000 | 2845.528)b (497.000 | 2850.529)b (496.000 | 2850.529)b (495.000 | 2855.530)b (494.000 | 2860.531)b (493.000 | 2865.532)b (492.000 | 2870.533)b (491.000 | 2885.536)b (490.000 | 2890.536)b (489.000 | 2895.537)b (488.000 | 2900.538)b (487.000 | 2900.538)b (486.000 | 2905.539)b (485.000 | 2905.539)b (484.000 | 2910.540)b (483.000 | 2915.541)b (482.000 | 2920.542)b (481.000 | 2945.546)b (480.000 | 2945.546)b (479.000 | 2950.547)b (478.000 | 2955.548)b (477.000 | 2960.549)b (476.000 | 2960.549)b (475.000 | 2965.550)b (474.000 | 2975.552)b (473.000 | 2980.553)b (472.000 | 3000.557)b (472.000 | 2995.556)b (471.000 | 2995.556)b (470.000 | 3000.557)b (469.000 | 3005.558)b (468.000 | 3010.559)b (467.000 | 3010.559)b (466.000 | 3015.560)b (465.000 | 3025.562)b (464.000 | 3030.563)b (463.000 | 3035.564)b (462.000 | 3040.565)b (461.000 | 3050.567)b (460.000 | 3075.571)b (459.000 | 3075.571)b (458.000 | 3080.572)b (457.000 | 3080.572)b (456.000 | 3095.575)b (456.000 | 3090.576)[ros2run]: Killed
+Pruning (move spot r00f0 exit) - never appeared in initial RPG
+Pruning (move spot exit r00f0) - never appeared in initial RPG
+Pruning (move spot r01f0 r00f0) - never appeared in initial RPG
+Pruning (move spot r10f0 r00f0) - never appeared in initial RPG
+Pruning (move spot r00f0 r01f0) - never appeared in initial RPG
+Pruning (move spot r02f0 r01f0) - never appeared in initial RPG
+Pruning (move spot r01f0 r02f0) - never appeared in initial RPG
+Pruning (move spot r12f0 r02f0) - never appeared in initial RPG
+Pruning (move spot r00f0 r10f0) - never appeared in initial RPG
+Pruning (move spot r11f0 r10f0) - never appeared in initial RPG
+Pruning (move spot r20f0 r10f0) - never appeared in initial RPG
+Pruning (move spot r10f0 r11f0) - never appeared in initial RPG
+Pruning (move spot r12f0 r11f0) - never appeared in initial RPG
+Pruning (move spot r21f0 r11f0) - never appeared in initial RPG
+Pruning (move spot r02f0 r12f0) - never appeared in initial RPG
+Pruning (move spot r11f0 r12f0) - never appeared in initial RPG
+Pruning (move spot r22f0 r12f0) - never appeared in initial RPG
+Pruning (move spot r10f0 r20f0) - never appeared in initial RPG
+Pruning (move spot r21f0 r20f0) - never appeared in initial RPG
+Pruning (move spot r11f0 r21f0) - never appeared in initial RPG
+Pruning (move spot r20f0 r21f0) - never appeared in initial RPG
+Pruning (move spot r22f0 r21f0) - never appeared in initial RPG
+Pruning (move spot r12f0 r22f0) - never appeared in initial RPG
+Pruning (move spot r21f0 r22f0) - never appeared in initial RPG
+Pruning (search spot r00f0) - never appeared in initial RPG
+Pruning (search spot r00f1) - never appeared in initial RPG
+Pruning (search spot r01f0) - never appeared in initial RPG
+Pruning (search spot r01f1) - never appeared in initial RPG
+Pruning (search spot r02f0) - never appeared in initial RPG
+Pruning (search spot r02f1) - never appeared in initial RPG
+Pruning (search spot r10f0) - never appeared in initial RPG
+Pruning (search spot r10f1) - never appeared in initial RPG
+Pruning (search spot r11f0) - never appeared in initial RPG
+Pruning (search spot r11f1) - never appeared in initial RPG
+Pruning (search spot r12f0) - never appeared in initial RPG
+Pruning (search spot r12f1) - never appeared in initial RPG
+Pruning (search spot r20f0) - never appeared in initial RPG
+Pruning (search spot r20f1) - never appeared in initial RPG
+Pruning (search spot r21f0) - never appeared in initial RPG
+Pruning (search spot r21f1) - never appeared in initial RPG
+Pruning (search spot r22f0) - never appeared in initial RPG
+Pruning (search spot r22f1) - never appeared in initial RPG
+Pruning (evaluate r01f0 p1 spot) - never appeared in initial RPG
+Pruning (evaluate r02f0 p2 spot) - never appeared in initial RPG
+Pruning (evaluate r20f0 p3 spot) - never appeared in initial RPG
+Pruning (evaluate r22f0 p4 spot) - never appeared in initial RPG
+Pruning (evaluate r00f1 p5 spot) - never appeared in initial RPG
+Pruning (evaluate r02f1 p6 spot) - never appeared in initial RPG
+Pruning (evaluate r11f1 p7 spot) - never appeared in initial RPG
+Pruning (evaluate r22f1 p8 spot) - never appeared in initial RPG
+Pruning (dialog exit p1 spot) - never appeared in initial RPG
+Pruning (dialog r00f0 p1 spot) - never appeared in initial RPG
+Pruning (dialog r00f1 p1 spot) - never appeared in initial RPG
+Pruning (dialog r01f0 p1 spot) - never appeared in initial RPG
+Pruning (dialog r01f1 p1 spot) - never appeared in initial RPG
+Pruning (dialog r02f0 p1 spot) - never appeared in initial RPG
+Pruning (dialog r02f1 p1 spot) - never appeared in initial RPG
+Pruning (dialog r10f0 p1 spot) - never appeared in initial RPG
+Pruning (dialog r10f1 p1 spot) - never appeared in initial RPG
+Pruning (dialog r11f0 p1 spot) - never appeared in initial RPG
+Pruning (dialog r11f1 p1 spot) - never appeared in initial RPG
+Pruning (dialog r12f0 p1 spot) - never appeared in initial RPG
+Pruning (dialog r12f1 p1 spot) - never appeared in initial RPG
+Pruning (dialog r20f0 p1 spot) - never appeared in initial RPG
+Pruning (dialog r20f1 p1 spot) - never appeared in initial RPG
+Pruning (dialog r21f0 p1 spot) - never appeared in initial RPG
+Pruning (dialog r21f1 p1 spot) - never appeared in initial RPG
+Pruning (dialog r22f0 p1 spot) - never appeared in initial RPG
+Pruning (dialog r22f1 p1 spot) - never appeared in initial RPG
+Pruning (dialog exit p2 spot) - never appeared in initial RPG
+Pruning (dialog r00f0 p2 spot) - never appeared in initial RPG
+Pruning (dialog r00f1 p2 spot) - never appeared in initial RPG
+Pruning (dialog r01f0 p2 spot) - never appeared in initial RPG
+Pruning (dialog r01f1 p2 spot) - never appeared in initial RPG
+Pruning (dialog r02f0 p2 spot) - never appeared in initial RPG
+Pruning (dialog r02f1 p2 spot) - never appeared in initial RPG
+Pruning (dialog r10f0 p2 spot) - never appeared in initial RPG
+Pruning (dialog r10f1 p2 spot) - never appeared in initial RPG
+Pruning (dialog r11f0 p2 spot) - never appeared in initial RPG
+Pruning (dialog r11f1 p2 spot) - never appeared in initial RPG
+Pruning (dialog r12f0 p2 spot) - never appeared in initial RPG
+Pruning (dialog r12f1 p2 spot) - never appeared in initial RPG
+Pruning (dialog r20f0 p2 spot) - never appeared in initial RPG
+Pruning (dialog r20f1 p2 spot) - never appeared in initial RPG
+Pruning (dialog r21f0 p2 spot) - never appeared in initial RPG
+Pruning (dialog r21f1 p2 spot) - never appeared in initial RPG
+Pruning (dialog r22f0 p2 spot) - never appeared in initial RPG
+Pruning (dialog r22f1 p2 spot) - never appeared in initial RPG
+Pruning (dialog exit p3 spot) - never appeared in initial RPG
+Pruning (dialog r00f0 p3 spot) - never appeared in initial RPG
+Pruning (dialog r00f1 p3 spot) - never appeared in initial RPG
+Pruning (dialog r01f0 p3 spot) - never appeared in initial RPG
+Pruning (dialog r01f1 p3 spot) - never appeared in initial RPG
+Pruning (dialog r02f0 p3 spot) - never appeared in initial RPG
+Pruning (dialog r02f1 p3 spot) - never appeared in initial RPG
+Pruning (dialog r10f0 p3 spot) - never appeared in initial RPG
+Pruning (dialog r10f1 p3 spot) - never appeared in initial RPG
+Pruning (dialog r11f0 p3 spot) - never appeared in initial RPG
+Pruning (dialog r11f1 p3 spot) - never appeared in initial RPG
+Pruning (dialog r12f0 p3 spot) - never appeared in initial RPG
+Pruning (dialog r12f1 p3 spot) - never appeared in initial RPG
+Pruning (dialog r20f0 p3 spot) - never appeared in initial RPG
+Pruning (dialog r20f1 p3 spot) - never appeared in initial RPG
+Pruning (dialog r21f0 p3 spot) - never appeared in initial RPG
+Pruning (dialog r21f1 p3 spot) - never appeared in initial RPG
+Pruning (dialog r22f0 p3 spot) - never appeared in initial RPG
+Pruning (dialog r22f1 p3 spot) - never appeared in initial RPG
+Pruning (dialog exit p4 spot) - never appeared in initial RPG
+Pruning (dialog r00f0 p4 spot) - never appeared in initial RPG
+Pruning (dialog r00f1 p4 spot) - never appeared in initial RPG
+Pruning (dialog r01f0 p4 spot) - never appeared in initial RPG
+Pruning (dialog r01f1 p4 spot) - never appeared in initial RPG
+Pruning (dialog r02f0 p4 spot) - never appeared in initial RPG
+Pruning (dialog r02f1 p4 spot) - never appeared in initial RPG
+Pruning (dialog r10f0 p4 spot) - never appeared in initial RPG
+Pruning (dialog r10f1 p4 spot) - never appeared in initial RPG
+Pruning (dialog r11f0 p4 spot) - never appeared in initial RPG
+Pruning (dialog r11f1 p4 spot) - never appeared in initial RPG
+Pruning (dialog r12f0 p4 spot) - never appeared in initial RPG
+Pruning (dialog r12f1 p4 spot) - never appeared in initial RPG
+Pruning (dialog r20f0 p4 spot) - never appeared in initial RPG
+Pruning (dialog r20f1 p4 spot) - never appeared in initial RPG
+Pruning (dialog r21f0 p4 spot) - never appeared in initial RPG
+Pruning (dialog r21f1 p4 spot) - never appeared in initial RPG
+Pruning (dialog r22f0 p4 spot) - never appeared in initial RPG
+Pruning (dialog r22f1 p4 spot) - never appeared in initial RPG
+Pruning (dialog exit p5 spot) - never appeared in initial RPG
+Pruning (dialog r00f0 p5 spot) - never appeared in initial RPG
+Pruning (dialog r00f1 p5 spot) - never appeared in initial RPG
+Pruning (dialog r01f0 p5 spot) - never appeared in initial RPG
+Pruning (dialog r01f1 p5 spot) - never appeared in initial RPG
+Pruning (dialog r02f0 p5 spot) - never appeared in initial RPG
+Pruning (dialog r02f1 p5 spot) - never appeared in initial RPG
+Pruning (dialog r10f0 p5 spot) - never appeared in initial RPG
+Pruning (dialog r10f1 p5 spot) - never appeared in initial RPG
+Pruning (dialog r11f0 p5 spot) - never appeared in initial RPG
+Pruning (dialog r11f1 p5 spot) - never appeared in initial RPG
+Pruning (dialog r12f0 p5 spot) - never appeared in initial RPG
+Pruning (dialog r12f1 p5 spot) - never appeared in initial RPG
+Pruning (dialog r20f0 p5 spot) - never appeared in initial RPG
+Pruning (dialog r20f1 p5 spot) - never appeared in initial RPG
+Pruning (dialog r21f0 p5 spot) - never appeared in initial RPG
+Pruning (dialog r21f1 p5 spot) - never appeared in initial RPG
+Pruning (dialog r22f0 p5 spot) - never appeared in initial RPG
+Pruning (dialog r22f1 p5 spot) - never appeared in initial RPG
+Pruning (dialog exit p6 spot) - never appeared in initial RPG
+Pruning (dialog r00f0 p6 spot) - never appeared in initial RPG
+Pruning (dialog r00f1 p6 spot) - never appeared in initial RPG
+Pruning (dialog r01f0 p6 spot) - never appeared in initial RPG
+Pruning (dialog r01f1 p6 spot) - never appeared in initial RPG
+Pruning (dialog r02f0 p6 spot) - never appeared in initial RPG
+Pruning (dialog r02f1 p6 spot) - never appeared in initial RPG
+Pruning (dialog r10f0 p6 spot) - never appeared in initial RPG
+Pruning (dialog r10f1 p6 spot) - never appeared in initial RPG
+Pruning (dialog r11f0 p6 spot) - never appeared in initial RPG
+Pruning (dialog r11f1 p6 spot) - never appeared in initial RPG
+Pruning (dialog r12f0 p6 spot) - never appeared in initial RPG
+Pruning (dialog r12f1 p6 spot) - never appeared in initial RPG
+Pruning (dialog r20f0 p6 spot) - never appeared in initial RPG
+Pruning (dialog r20f1 p6 spot) - never appeared in initial RPG
+Pruning (dialog r21f0 p6 spot) - never appeared in initial RPG
+Pruning (dialog r21f1 p6 spot) - never appeared in initial RPG
+Pruning (dialog r22f0 p6 spot) - never appeared in initial RPG
+Pruning (dialog r22f1 p6 spot) - never appeared in initial RPG
+Pruning (dialog exit p7 spot) - never appeared in initial RPG
+Pruning (dialog r00f0 p7 spot) - never appeared in initial RPG
+Pruning (dialog r00f1 p7 spot) - never appeared in initial RPG
+Pruning (dialog r01f0 p7 spot) - never appeared in initial RPG
+Pruning (dialog r01f1 p7 spot) - never appeared in initial RPG
+Pruning (dialog r02f0 p7 spot) - never appeared in initial RPG
+Pruning (dialog r02f1 p7 spot) - never appeared in initial RPG
+Pruning (dialog r10f0 p7 spot) - never appeared in initial RPG
+Pruning (dialog r10f1 p7 spot) - never appeared in initial RPG
+Pruning (dialog r11f0 p7 spot) - never appeared in initial RPG
+Pruning (dialog r11f1 p7 spot) - never appeared in initial RPG
+Pruning (dialog r12f0 p7 spot) - never appeared in initial RPG
+Pruning (dialog r12f1 p7 spot) - never appeared in initial RPG
+Pruning (dialog r20f0 p7 spot) - never appeared in initial RPG
+Pruning (dialog r20f1 p7 spot) - never appeared in initial RPG
+Pruning (dialog r21f0 p7 spot) - never appeared in initial RPG
+Pruning (dialog r21f1 p7 spot) - never appeared in initial RPG
+Pruning (dialog r22f0 p7 spot) - never appeared in initial RPG
+Pruning (dialog r22f1 p7 spot) - never appeared in initial RPG
+Pruning (dialog exit p8 spot) - never appeared in initial RPG
+Pruning (dialog r00f0 p8 spot) - never appeared in initial RPG
+Pruning (dialog r00f1 p8 spot) - never appeared in initial RPG
+Pruning (dialog r01f0 p8 spot) - never appeared in initial RPG
+Pruning (dialog r01f1 p8 spot) - never appeared in initial RPG
+Pruning (dialog r02f0 p8 spot) - never appeared in initial RPG
+Pruning (dialog r02f1 p8 spot) - never appeared in initial RPG
+Pruning (dialog r10f0 p8 spot) - never appeared in initial RPG
+Pruning (dialog r10f1 p8 spot) - never appeared in initial RPG
+Pruning (dialog r11f0 p8 spot) - never appeared in initial RPG
+Pruning (dialog r11f1 p8 spot) - never appeared in initial RPG
+Pruning (dialog r12f0 p8 spot) - never appeared in initial RPG
+Pruning (dialog r12f1 p8 spot) - never appeared in initial RPG
+Pruning (dialog r20f0 p8 spot) - never appeared in initial RPG
+Pruning (dialog r20f1 p8 spot) - never appeared in initial RPG
+Pruning (dialog r21f0 p8 spot) - never appeared in initial RPG
+Pruning (dialog r21f1 p8 spot) - never appeared in initial RPG
+Pruning (dialog r22f0 p8 spot) - never appeared in initial RPG
+Pruning (dialog r22f1 p8 spot) - never appeared in initial RPG
+Pruning (report exit p1 spot) - never appeared in initial RPG
+Pruning (report r00f0 p1 spot) - never appeared in initial RPG
+Pruning (report r00f1 p1 spot) - never appeared in initial RPG
+Pruning (report r01f0 p1 spot) - never appeared in initial RPG
+Pruning (report r01f1 p1 spot) - never appeared in initial RPG
+Pruning (report r02f0 p1 spot) - never appeared in initial RPG
+Pruning (report r02f1 p1 spot) - never appeared in initial RPG
+Pruning (report r10f0 p1 spot) - never appeared in initial RPG
+Pruning (report r10f1 p1 spot) - never appeared in initial RPG
+Pruning (report r11f0 p1 spot) - never appeared in initial RPG
+Pruning (report r11f1 p1 spot) - never appeared in initial RPG
+Pruning (report r12f0 p1 spot) - never appeared in initial RPG
+Pruning (report r12f1 p1 spot) - never appeared in initial RPG
+Pruning (report r20f0 p1 spot) - never appeared in initial RPG
+Pruning (report r20f1 p1 spot) - never appeared in initial RPG
+Pruning (report r21f0 p1 spot) - never appeared in initial RPG
+Pruning (report r21f1 p1 spot) - never appeared in initial RPG
+Pruning (report r22f0 p1 spot) - never appeared in initial RPG
+Pruning (report r22f1 p1 spot) - never appeared in initial RPG
+Pruning (report exit p2 spot) - never appeared in initial RPG
+Pruning (report r00f0 p2 spot) - never appeared in initial RPG
+Pruning (report r00f1 p2 spot) - never appeared in initial RPG
+Pruning (report r01f0 p2 spot) - never appeared in initial RPG
+Pruning (report r01f1 p2 spot) - never appeared in initial RPG
+Pruning (report r02f0 p2 spot) - never appeared in initial RPG
+Pruning (report r02f1 p2 spot) - never appeared in initial RPG
+Pruning (report r10f0 p2 spot) - never appeared in initial RPG
+Pruning (report r10f1 p2 spot) - never appeared in initial RPG
+Pruning (report r11f0 p2 spot) - never appeared in initial RPG
+Pruning (report r11f1 p2 spot) - never appeared in initial RPG
+Pruning (report r12f0 p2 spot) - never appeared in initial RPG
+Pruning (report r12f1 p2 spot) - never appeared in initial RPG
+Pruning (report r20f0 p2 spot) - never appeared in initial RPG
+Pruning (report r20f1 p2 spot) - never appeared in initial RPG
+Pruning (report r21f0 p2 spot) - never appeared in initial RPG
+Pruning (report r21f1 p2 spot) - never appeared in initial RPG
+Pruning (report r22f0 p2 spot) - never appeared in initial RPG
+Pruning (report r22f1 p2 spot) - never appeared in initial RPG
+Pruning (report exit p3 spot) - never appeared in initial RPG
+Pruning (report r00f0 p3 spot) - never appeared in initial RPG
+Pruning (report r00f1 p3 spot) - never appeared in initial RPG
+Pruning (report r01f0 p3 spot) - never appeared in initial RPG
+Pruning (report r01f1 p3 spot) - never appeared in initial RPG
+Pruning (report r02f0 p3 spot) - never appeared in initial RPG
+Pruning (report r02f1 p3 spot) - never appeared in initial RPG
+Pruning (report r10f0 p3 spot) - never appeared in initial RPG
+Pruning (report r10f1 p3 spot) - never appeared in initial RPG
+Pruning (report r11f0 p3 spot) - never appeared in initial RPG
+Pruning (report r11f1 p3 spot) - never appeared in initial RPG
+Pruning (report r12f0 p3 spot) - never appeared in initial RPG
+Pruning (report r12f1 p3 spot) - never appeared in initial RPG
+Pruning (report r20f0 p3 spot) - never appeared in initial RPG
+Pruning (report r20f1 p3 spot) - never appeared in initial RPG
+Pruning (report r21f0 p3 spot) - never appeared in initial RPG
+Pruning (report r21f1 p3 spot) - never appeared in initial RPG
+Pruning (report r22f0 p3 spot) - never appeared in initial RPG
+Pruning (report r22f1 p3 spot) - never appeared in initial RPG
+Pruning (report exit p4 spot) - never appeared in initial RPG
+Pruning (report r00f0 p4 spot) - never appeared in initial RPG
+Pruning (report r00f1 p4 spot) - never appeared in initial RPG
+Pruning (report r01f0 p4 spot) - never appeared in initial RPG
+Pruning (report r01f1 p4 spot) - never appeared in initial RPG
+Pruning (report r02f0 p4 spot) - never appeared in initial RPG
+Pruning (report r02f1 p4 spot) - never appeared in initial RPG
+Pruning (report r10f0 p4 spot) - never appeared in initial RPG
+Pruning (report r10f1 p4 spot) - never appeared in initial RPG
+Pruning (report r11f0 p4 spot) - never appeared in initial RPG
+Pruning (report r11f1 p4 spot) - never appeared in initial RPG
+Pruning (report r12f0 p4 spot) - never appeared in initial RPG
+Pruning (report r12f1 p4 spot) - never appeared in initial RPG
+Pruning (report r20f0 p4 spot) - never appeared in initial RPG
+Pruning (report r20f1 p4 spot) - never appeared in initial RPG
+Pruning (report r21f0 p4 spot) - never appeared in initial RPG
+Pruning (report r21f1 p4 spot) - never appeared in initial RPG
+Pruning (report r22f0 p4 spot) - never appeared in initial RPG
+Pruning (report r22f1 p4 spot) - never appeared in initial RPG
+Pruning (report exit p5 spot) - never appeared in initial RPG
+Pruning (report r00f0 p5 spot) - never appeared in initial RPG
+Pruning (report r00f1 p5 spot) - never appeared in initial RPG
+Pruning (report r01f0 p5 spot) - never appeared in initial RPG
+Pruning (report r01f1 p5 spot) - never appeared in initial RPG
+Pruning (report r02f0 p5 spot) - never appeared in initial RPG
+Pruning (report r02f1 p5 spot) - never appeared in initial RPG
+Pruning (report r10f0 p5 spot) - never appeared in initial RPG
+Pruning (report r10f1 p5 spot) - never appeared in initial RPG
+Pruning (report r11f0 p5 spot) - never appeared in initial RPG
+Pruning (report r11f1 p5 spot) - never appeared in initial RPG
+Pruning (report r12f0 p5 spot) - never appeared in initial RPG
+Pruning (report r12f1 p5 spot) - never appeared in initial RPG
+Pruning (report r20f0 p5 spot) - never appeared in initial RPG
+Pruning (report r20f1 p5 spot) - never appeared in initial RPG
+Pruning (report r21f0 p5 spot) - never appeared in initial RPG
+Pruning (report r21f1 p5 spot) - never appeared in initial RPG
+Pruning (report r22f0 p5 spot) - never appeared in initial RPG
+Pruning (report r22f1 p5 spot) - never appeared in initial RPG
+Pruning (report exit p6 spot) - never appeared in initial RPG
+Pruning (report r00f0 p6 spot) - never appeared in initial RPG
+Pruning (report r00f1 p6 spot) - never appeared in initial RPG
+Pruning (report r01f0 p6 spot) - never appeared in initial RPG
+Pruning (report r01f1 p6 spot) - never appeared in initial RPG
+Pruning (report r02f0 p6 spot) - never appeared in initial RPG
+Pruning (report r02f1 p6 spot) - never appeared in initial RPG
+Pruning (report r10f0 p6 spot) - never appeared in initial RPG
+Pruning (report r10f1 p6 spot) - never appeared in initial RPG
+Pruning (report r11f0 p6 spot) - never appeared in initial RPG
+Pruning (report r11f1 p6 spot) - never appeared in initial RPG
+Pruning (report r12f0 p6 spot) - never appeared in initial RPG
+Pruning (report r12f1 p6 spot) - never appeared in initial RPG
+Pruning (report r20f0 p6 spot) - never appeared in initial RPG
+Pruning (report r20f1 p6 spot) - never appeared in initial RPG
+Pruning (report r21f0 p6 spot) - never appeared in initial RPG
+Pruning (report r21f1 p6 spot) - never appeared in initial RPG
+Pruning (report r22f0 p6 spot) - never appeared in initial RPG
+Pruning (report r22f1 p6 spot) - never appeared in initial RPG
+Pruning (report exit p7 spot) - never appeared in initial RPG
+Pruning (report r00f0 p7 spot) - never appeared in initial RPG
+Pruning (report r00f1 p7 spot) - never appeared in initial RPG
+Pruning (report r01f0 p7 spot) - never appeared in initial RPG
+Pruning (report r01f1 p7 spot) - never appeared in initial RPG
+Pruning (report r02f0 p7 spot) - never appeared in initial RPG
+Pruning (report r02f1 p7 spot) - never appeared in initial RPG
+Pruning (report r10f0 p7 spot) - never appeared in initial RPG
+Pruning (report r10f1 p7 spot) - never appeared in initial RPG
+Pruning (report r11f0 p7 spot) - never appeared in initial RPG
+Pruning (report r11f1 p7 spot) - never appeared in initial RPG
+Pruning (report r12f0 p7 spot) - never appeared in initial RPG
+Pruning (report r12f1 p7 spot) - never appeared in initial RPG
+Pruning (report r20f0 p7 spot) - never appeared in initial RPG
+Pruning (report r20f1 p7 spot) - never appeared in initial RPG
+Pruning (report r21f0 p7 spot) - never appeared in initial RPG
+Pruning (report r21f1 p7 spot) - never appeared in initial RPG
+Pruning (report r22f0 p7 spot) - never appeared in initial RPG
+Pruning (report r22f1 p7 spot) - never appeared in initial RPG
+Pruning (report exit p8 spot) - never appeared in initial RPG
+Pruning (report r00f0 p8 spot) - never appeared in initial RPG
+Pruning (report r00f1 p8 spot) - never appeared in initial RPG
+Pruning (report r01f0 p8 spot) - never appeared in initial RPG
+Pruning (report r01f1 p8 spot) - never appeared in initial RPG
+Pruning (report r02f0 p8 spot) - never appeared in initial RPG
+Pruning (report r02f1 p8 spot) - never appeared in initial RPG
+Pruning (report r10f0 p8 spot) - never appeared in initial RPG
+Pruning (report r10f1 p8 spot) - never appeared in initial RPG
+Pruning (report r11f0 p8 spot) - never appeared in initial RPG
+Pruning (report r11f1 p8 spot) - never appeared in initial RPG
+Pruning (report r12f0 p8 spot) - never appeared in initial RPG
+Pruning (report r12f1 p8 spot) - never appeared in initial RPG
+Pruning (report r20f0 p8 spot) - never appeared in initial RPG
+Pruning (report r20f1 p8 spot) - never appeared in initial RPG
+Pruning (report r21f0 p8 spot) - never appeared in initial RPG
+Pruning (report r21f1 p8 spot) - never appeared in initial RPG
+Pruning (report r22f0 p8 spot) - never appeared in initial RPG
+Pruning (report r22f1 p8 spot) - never appeared in initial RPG
+Pruning (check spot exit) - never appeared in initial RPG
+Pruning (check spot r00f0) - never appeared in initial RPG
+Pruning (check spot r01f0) - never appeared in initial RPG
+Pruning (check spot r02f0) - never appeared in initial RPG
+Pruning (check spot r10f0) - never appeared in initial RPG
+Pruning (check spot r11f0) - never appeared in initial RPG
+Pruning (check spot r12f0) - never appeared in initial RPG
+Pruning (check spot r20f0) - never appeared in initial RPG
+Pruning (check spot r21f0) - never appeared in initial RPG
+Pruning (check spot r22f0) - never appeared in initial RPG
+Pruning (checkgas spot r00f0) - never appeared in initial RPG
+Pruning (checkgas spot r00f1) - never appeared in initial RPG
+Pruning (checkgas spot r01f0) - never appeared in initial RPG
+Pruning (checkgas spot r01f1) - never appeared in initial RPG
+Pruning (checkgas spot r02f0) - never appeared in initial RPG
+Pruning (checkgas spot r02f1) - never appeared in initial RPG
+Pruning (checkgas spot r10f0) - never appeared in initial RPG
+Pruning (checkgas spot r10f1) - never appeared in initial RPG
+Pruning (checkgas spot r11f0) - never appeared in initial RPG
+Pruning (checkgas spot r11f1) - never appeared in initial RPG
+Pruning (checkgas spot r12f0) - never appeared in initial RPG
+Pruning (checkgas spot r12f1) - never appeared in initial RPG
+Pruning (checkgas spot r20f0) - never appeared in initial RPG
+Pruning (checkgas spot r20f1) - never appeared in initial RPG
+Pruning (checkgas spot r21f0) - never appeared in initial RPG
+Pruning (checkgas spot r21f1) - never appeared in initial RPG
+Pruning (checkgas spot r22f0) - never appeared in initial RPG
+Pruning (checkgas spot r22f1) - never appeared in initial RPG
+Pruning (checkcrack spot r00f0) - never appeared in initial RPG
+Pruning (checkcrack spot r00f1) - never appeared in initial RPG
+Pruning (checkcrack spot r01f0) - never appeared in initial RPG
+Pruning (checkcrack spot r01f1) - never appeared in initial RPG
+Pruning (checkcrack spot r02f0) - never appeared in initial RPG
+Pruning (checkcrack spot r02f1) - never appeared in initial RPG
+Pruning (checkcrack spot r10f0) - never appeared in initial RPG
+Pruning (checkcrack spot r10f1) - never appeared in initial RPG
+Pruning (checkcrack spot r11f0) - never appeared in initial RPG
+Pruning (checkcrack spot r11f1) - never appeared in initial RPG
+Pruning (checkcrack spot r12f0) - never appeared in initial RPG
+Pruning (checkcrack spot r12f1) - never appeared in initial RPG
+Pruning (checkcrack spot r20f0) - never appeared in initial RPG
+Pruning (checkcrack spot r20f1) - never appeared in initial RPG
+Pruning (checkcrack spot r21f0) - never appeared in initial RPG
+Pruning (checkcrack spot r21f1) - never appeared in initial RPG
+Pruning (checkcrack spot r22f0) - never appeared in initial RPG
+Pruning (checkcrack spot r22f1) - never appeared in initial RPG
+Pruning (checktemp spot r00f0) - never appeared in initial RPG
+Pruning (checktemp spot r00f1) - never appeared in initial RPG
+Pruning (checktemp spot r01f0) - never appeared in initial RPG
+Pruning (checktemp spot r01f1) - never appeared in initial RPG
+Pruning (checktemp spot r02f0) - never appeared in initial RPG
+Pruning (checktemp spot r02f1) - never appeared in initial RPG
+Pruning (checktemp spot r10f0) - never appeared in initial RPG
+Pruning (checktemp spot r10f1) - never appeared in initial RPG
+Pruning (checktemp spot r11f0) - never appeared in initial RPG
+Pruning (checktemp spot r11f1) - never appeared in initial RPG
+Pruning (checktemp spot r12f0) - never appeared in initial RPG
+Pruning (checktemp spot r12f1) - never appeared in initial RPG
+Pruning (checktemp spot r20f0) - never appeared in initial RPG
+Pruning (checktemp spot r20f1) - never appeared in initial RPG
+Pruning (checktemp spot r21f0) - never appeared in initial RPG
+Pruning (checktemp spot r21f1) - never appeared in initial RPG
+Pruning (checktemp spot r22f0) - never appeared in initial RPG
+Pruning (checktemp spot r22f1) - never appeared in initial RPG
+Pruning (reportemergency spot exit) - never appeared in initial RPG
+Pruning (checkstairs spot s21 r02f0 r02f0) - never appeared in initial RPG
+Pruning (checkstairs spot s21 r02f1 r02f0) - never appeared in initial RPG
+Pruning (checkstairs spot s21 r02f0 r02f1) - never appeared in initial RPG
+Pruning (checkstairs spot s21 r02f1 r02f1) - never appeared in initial RPG
+Pruning (checklink spot r00f0 exit) - never appeared in initial RPG
+Pruning (checklink spot exit r00f0) - never appeared in initial RPG
+Pruning (checklink spot r01f0 r00f0) - never appeared in initial RPG
+Pruning (checklink spot r10f0 r00f0) - never appeared in initial RPG
+Pruning (checklink spot r00f0 r01f0) - never appeared in initial RPG
+Pruning (checklink spot r02f0 r01f0) - never appeared in initial RPG
+Pruning (checklink spot r01f0 r02f0) - never appeared in initial RPG
+Pruning (checklink spot r12f0 r02f0) - never appeared in initial RPG
+Pruning (checklink spot r00f0 r10f0) - never appeared in initial RPG
+Pruning (checklink spot r11f0 r10f0) - never appeared in initial RPG
+Pruning (checklink spot r20f0 r10f0) - never appeared in initial RPG
+Pruning (checklink spot r10f0 r11f0) - never appeared in initial RPG
+Pruning (checklink spot r12f0 r11f0) - never appeared in initial RPG
+Pruning (checklink spot r21f0 r11f0) - never appeared in initial RPG
+Pruning (checklink spot r02f0 r12f0) - never appeared in initial RPG
+Pruning (checklink spot r11f0 r12f0) - never appeared in initial RPG
+Pruning (checklink spot r22f0 r12f0) - never appeared in initial RPG
+Pruning (checklink spot r10f0 r20f0) - never appeared in initial RPG
+Pruning (checklink spot r21f0 r20f0) - never appeared in initial RPG
+Pruning (checklink spot r11f0 r21f0) - never appeared in initial RPG
+Pruning (checklink spot r20f0 r21f0) - never appeared in initial RPG
+Pruning (checklink spot r22f0 r21f0) - never appeared in initial RPG
+Pruning (checklink spot r12f0 r22f0) - never appeared in initial RPG
+Pruning (checklink spot r21f0 r22f0) - never appeared in initial RPG
+Pruning (climbstairs spot r02f0 r02f0 s21) - never appeared in initial RPG
+Pruning (climbstairs spot r02f1 r02f0 s21) - never appeared in initial RPG
+Pruning (climbstairs spot r02f0 r02f1 s21) - never appeared in initial RPG
+Pruning (climbstairs spot r02f1 r02f1 s21) - never appeared in initial RPG
+Pruning (checkroomopen spot r00f0) - never appeared in initial RPG
+Pruning (checkroomopen spot r00f1) - never appeared in initial RPG
+Pruning (checkroomopen spot r01f0) - never appeared in initial RPG
+Pruning (checkroomopen spot r01f1) - never appeared in initial RPG
+Pruning (checkroomopen spot r02f0) - never appeared in initial RPG
+Pruning (checkroomopen spot r02f1) - never appeared in initial RPG
+Pruning (checkroomopen spot r10f0) - never appeared in initial RPG
+Pruning (checkroomopen spot r10f1) - never appeared in initial RPG
+Pruning (checkroomopen spot r11f0) - never appeared in initial RPG
+Pruning (checkroomopen spot r11f1) - never appeared in initial RPG
+Pruning (checkroomopen spot r12f0) - never appeared in initial RPG
+Pruning (checkroomopen spot r12f1) - never appeared in initial RPG
+Pruning (checkroomopen spot r20f1) - never appeared in initial RPG
+Pruning (checkroomopen spot r21f0) - never appeared in initial RPG
+Pruning (checkroomopen spot r21f1) - never appeared in initial RPG
+Pruning (checkroomopen spot r22f0) - never appeared in initial RPG
+Pruning (checkroomopen spot r22f1) - never appeared in initial RPG
+Pruning (opendoor spot r20f0) - never appeared in initial RPG
+;; Problem unsolvable!
+; Time 0.00
+[ros2run]: Process exited with failure 1
