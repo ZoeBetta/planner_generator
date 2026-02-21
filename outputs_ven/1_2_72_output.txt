@@ -1,0 +1,58 @@
+Constructing lookup tables: [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+Post filtering unreachable actions:  [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+Pruning (move spot r33f1 r23f1) - never appeared in initial RPG
+Pruning (move spot r23f1 r33f1) - never appeared in initial RPG
+Pruning (search spot r23f1) - never appeared in initial RPG
+Pruning (search spot r33f1) - never appeared in initial RPG
+Pruning (dialog r23f1 p1 spot) - never appeared in initial RPG
+Pruning (dialog r33f1 p1 spot) - never appeared in initial RPG
+Pruning (dialog r23f1 p2 spot) - never appeared in initial RPG
+Pruning (dialog r33f1 p2 spot) - never appeared in initial RPG
+Pruning (dialog r23f1 p3 spot) - never appeared in initial RPG
+Pruning (dialog r33f1 p3 spot) - never appeared in initial RPG
+Pruning (dialog r23f1 p4 spot) - never appeared in initial RPG
+Pruning (dialog r33f1 p4 spot) - never appeared in initial RPG
+Pruning (dialog r23f1 p5 spot) - never appeared in initial RPG
+Pruning (dialog r33f1 p5 spot) - never appeared in initial RPG
+Pruning (dialog r23f1 p6 spot) - never appeared in initial RPG
+Pruning (dialog r33f1 p6 spot) - never appeared in initial RPG
+Pruning (dialog r23f1 p7 spot) - never appeared in initial RPG
+Pruning (dialog r33f1 p7 spot) - never appeared in initial RPG
+Pruning (dialog r23f1 p8 spot) - never appeared in initial RPG
+Pruning (dialog r33f1 p8 spot) - never appeared in initial RPG
+Pruning (dialog r23f1 p9 spot) - never appeared in initial RPG
+Pruning (dialog r33f1 p9 spot) - never appeared in initial RPG
+Pruning (report r23f1 p1 spot) - never appeared in initial RPG
+Pruning (report r33f1 p1 spot) - never appeared in initial RPG
+Pruning (report r23f1 p2 spot) - never appeared in initial RPG
+Pruning (report r33f1 p2 spot) - never appeared in initial RPG
+Pruning (report r23f1 p3 spot) - never appeared in initial RPG
+Pruning (report r33f1 p3 spot) - never appeared in initial RPG
+Pruning (report r23f1 p4 spot) - never appeared in initial RPG
+Pruning (report r33f1 p4 spot) - never appeared in initial RPG
+Pruning (report r23f1 p5 spot) - never appeared in initial RPG
+Pruning (report r33f1 p5 spot) - never appeared in initial RPG
+Pruning (report r23f1 p6 spot) - never appeared in initial RPG
+Pruning (report r33f1 p6 spot) - never appeared in initial RPG
+Pruning (report r23f1 p7 spot) - never appeared in initial RPG
+Pruning (report r33f1 p7 spot) - never appeared in initial RPG
+Pruning (report r23f1 p8 spot) - never appeared in initial RPG
+Pruning (report r33f1 p8 spot) - never appeared in initial RPG
+Pruning (report r23f1 p9 spot) - never appeared in initial RPG
+Pruning (report r33f1 p9 spot) - never appeared in initial RPG
+Pruning (check spot r23f1) - never appeared in initial RPG
+Pruning (check spot r33f1) - never appeared in initial RPG
+Pruning (checkgas spot r23f1) - never appeared in initial RPG
+Pruning (checkgas spot r33f1) - never appeared in initial RPG
+Pruning (checkcrack spot r23f1) - never appeared in initial RPG
+Pruning (checkcrack spot r33f1) - never appeared in initial RPG
+Pruning (checktemp spot r23f1) - never appeared in initial RPG
+Pruning (checktemp spot r33f1) - never appeared in initial RPG
+Pruning (checklink spot r33f1 r23f1) - never appeared in initial RPG
+Pruning (checklink spot r23f1 r33f1) - never appeared in initial RPG
+Pruning (checkroomopen spot r23f1) - never appeared in initial RPG
+Pruning (checkroomopen spot r33f1) - never appeared in initial RPG
+80% of the ground temporal actions in this problem are compression-safe
+;; Problem unsolvable!
+; Time 0.06
+[ros2run]: Process exited with failure 1

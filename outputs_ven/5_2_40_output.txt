@@ -1,0 +1,513 @@
+Constructing lookup tables: [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+Post filtering unreachable actions:  [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+Pruning (move spot r00f0 exit) - never appeared in initial RPG
+Pruning (move spot exit r00f0) - never appeared in initial RPG
+Pruning (move spot r01f0 r00f0) - never appeared in initial RPG
+Pruning (move spot r10f0 r00f0) - never appeared in initial RPG
+Pruning (move spot r00f0 r01f0) - never appeared in initial RPG
+Pruning (move spot r02f0 r01f0) - never appeared in initial RPG
+Pruning (move spot r01f0 r02f0) - never appeared in initial RPG
+Pruning (move spot r12f0 r02f0) - never appeared in initial RPG
+Pruning (move spot r00f0 r10f0) - never appeared in initial RPG
+Pruning (move spot r11f0 r10f0) - never appeared in initial RPG
+Pruning (move spot r20f0 r10f0) - never appeared in initial RPG
+Pruning (move spot r10f0 r11f0) - never appeared in initial RPG
+Pruning (move spot r12f0 r11f0) - never appeared in initial RPG
+Pruning (move spot r21f0 r11f0) - never appeared in initial RPG
+Pruning (move spot r02f0 r12f0) - never appeared in initial RPG
+Pruning (move spot r11f0 r12f0) - never appeared in initial RPG
+Pruning (move spot r22f0 r12f0) - never appeared in initial RPG
+Pruning (move spot r10f0 r20f0) - never appeared in initial RPG
+Pruning (move spot r21f0 r20f0) - never appeared in initial RPG
+Pruning (move spot r11f0 r21f0) - never appeared in initial RPG
+Pruning (move spot r20f0 r21f0) - never appeared in initial RPG
+Pruning (move spot r22f0 r21f0) - never appeared in initial RPG
+Pruning (move spot r12f0 r22f0) - never appeared in initial RPG
+Pruning (move spot r21f0 r22f0) - never appeared in initial RPG
+Pruning (search spot r00f0) - never appeared in initial RPG
+Pruning (search spot r00f1) - never appeared in initial RPG
+Pruning (search spot r01f0) - never appeared in initial RPG
+Pruning (search spot r01f1) - never appeared in initial RPG
+Pruning (search spot r02f0) - never appeared in initial RPG
+Pruning (search spot r02f1) - never appeared in initial RPG
+Pruning (search spot r10f0) - never appeared in initial RPG
+Pruning (search spot r10f1) - never appeared in initial RPG
+Pruning (search spot r11f0) - never appeared in initial RPG
+Pruning (search spot r11f1) - never appeared in initial RPG
+Pruning (search spot r12f0) - never appeared in initial RPG
+Pruning (search spot r12f1) - never appeared in initial RPG
+Pruning (search spot r20f0) - never appeared in initial RPG
+Pruning (search spot r20f1) - never appeared in initial RPG
+Pruning (search spot r21f0) - never appeared in initial RPG
+Pruning (search spot r21f1) - never appeared in initial RPG
+Pruning (search spot r22f0) - never appeared in initial RPG
+Pruning (search spot r22f1) - never appeared in initial RPG
+Pruning (evaluate r00f0 p1 spot) - never appeared in initial RPG
+Pruning (evaluate r02f0 p2 spot) - never appeared in initial RPG
+Pruning (evaluate r20f0 p3 spot) - never appeared in initial RPG
+Pruning (evaluate r02f1 p4 spot) - never appeared in initial RPG
+Pruning (evaluate r10f1 p5 spot) - never appeared in initial RPG
+Pruning (evaluate r11f1 p6 spot) - never appeared in initial RPG
+Pruning (evaluate r20f1 p7 spot) - never appeared in initial RPG
+Pruning (evaluate r21f1 p8 spot) - never appeared in initial RPG
+Pruning (evaluate r22f1 p9 spot) - never appeared in initial RPG
+Pruning (dialog exit p1 spot) - never appeared in initial RPG
+Pruning (dialog r00f0 p1 spot) - never appeared in initial RPG
+Pruning (dialog r00f1 p1 spot) - never appeared in initial RPG
+Pruning (dialog r01f0 p1 spot) - never appeared in initial RPG
+Pruning (dialog r01f1 p1 spot) - never appeared in initial RPG
+Pruning (dialog r02f0 p1 spot) - never appeared in initial RPG
+Pruning (dialog r02f1 p1 spot) - never appeared in initial RPG
+Pruning (dialog r10f0 p1 spot) - never appeared in initial RPG
+Pruning (dialog r10f1 p1 spot) - never appeared in initial RPG
+Pruning (dialog r11f0 p1 spot) - never appeared in initial RPG
+Pruning (dialog r11f1 p1 spot) - never appeared in initial RPG
+Pruning (dialog r12f0 p1 spot) - never appeared in initial RPG
+Pruning (dialog r12f1 p1 spot) - never appeared in initial RPG
+Pruning (dialog r20f0 p1 spot) - never appeared in initial RPG
+Pruning (dialog r20f1 p1 spot) - never appeared in initial RPG
+Pruning (dialog r21f0 p1 spot) - never appeared in initial RPG
+Pruning (dialog r21f1 p1 spot) - never appeared in initial RPG
+Pruning (dialog r22f0 p1 spot) - never appeared in initial RPG
+Pruning (dialog r22f1 p1 spot) - never appeared in initial RPG
+Pruning (dialog exit p2 spot) - never appeared in initial RPG
+Pruning (dialog r00f0 p2 spot) - never appeared in initial RPG
+Pruning (dialog r00f1 p2 spot) - never appeared in initial RPG
+Pruning (dialog r01f0 p2 spot) - never appeared in initial RPG
+Pruning (dialog r01f1 p2 spot) - never appeared in initial RPG
+Pruning (dialog r02f0 p2 spot) - never appeared in initial RPG
+Pruning (dialog r02f1 p2 spot) - never appeared in initial RPG
+Pruning (dialog r10f0 p2 spot) - never appeared in initial RPG
+Pruning (dialog r10f1 p2 spot) - never appeared in initial RPG
+Pruning (dialog r11f0 p2 spot) - never appeared in initial RPG
+Pruning (dialog r11f1 p2 spot) - never appeared in initial RPG
+Pruning (dialog r12f0 p2 spot) - never appeared in initial RPG
+Pruning (dialog r12f1 p2 spot) - never appeared in initial RPG
+Pruning (dialog r20f0 p2 spot) - never appeared in initial RPG
+Pruning (dialog r20f1 p2 spot) - never appeared in initial RPG
+Pruning (dialog r21f0 p2 spot) - never appeared in initial RPG
+Pruning (dialog r21f1 p2 spot) - never appeared in initial RPG
+Pruning (dialog r22f0 p2 spot) - never appeared in initial RPG
+Pruning (dialog r22f1 p2 spot) - never appeared in initial RPG
+Pruning (dialog exit p3 spot) - never appeared in initial RPG
+Pruning (dialog r00f0 p3 spot) - never appeared in initial RPG
+Pruning (dialog r00f1 p3 spot) - never appeared in initial RPG
+Pruning (dialog r01f0 p3 spot) - never appeared in initial RPG
+Pruning (dialog r01f1 p3 spot) - never appeared in initial RPG
+Pruning (dialog r02f0 p3 spot) - never appeared in initial RPG
+Pruning (dialog r02f1 p3 spot) - never appeared in initial RPG
+Pruning (dialog r10f0 p3 spot) - never appeared in initial RPG
+Pruning (dialog r10f1 p3 spot) - never appeared in initial RPG
+Pruning (dialog r11f0 p3 spot) - never appeared in initial RPG
+Pruning (dialog r11f1 p3 spot) - never appeared in initial RPG
+Pruning (dialog r12f0 p3 spot) - never appeared in initial RPG
+Pruning (dialog r12f1 p3 spot) - never appeared in initial RPG
+Pruning (dialog r20f0 p3 spot) - never appeared in initial RPG
+Pruning (dialog r20f1 p3 spot) - never appeared in initial RPG
+Pruning (dialog r21f0 p3 spot) - never appeared in initial RPG
+Pruning (dialog r21f1 p3 spot) - never appeared in initial RPG
+Pruning (dialog r22f0 p3 spot) - never appeared in initial RPG
+Pruning (dialog r22f1 p3 spot) - never appeared in initial RPG
+Pruning (dialog exit p4 spot) - never appeared in initial RPG
+Pruning (dialog r00f0 p4 spot) - never appeared in initial RPG
+Pruning (dialog r00f1 p4 spot) - never appeared in initial RPG
+Pruning (dialog r01f0 p4 spot) - never appeared in initial RPG
+Pruning (dialog r01f1 p4 spot) - never appeared in initial RPG
+Pruning (dialog r02f0 p4 spot) - never appeared in initial RPG
+Pruning (dialog r02f1 p4 spot) - never appeared in initial RPG
+Pruning (dialog r10f0 p4 spot) - never appeared in initial RPG
+Pruning (dialog r10f1 p4 spot) - never appeared in initial RPG
+Pruning (dialog r11f0 p4 spot) - never appeared in initial RPG
+Pruning (dialog r11f1 p4 spot) - never appeared in initial RPG
+Pruning (dialog r12f0 p4 spot) - never appeared in initial RPG
+Pruning (dialog r12f1 p4 spot) - never appeared in initial RPG
+Pruning (dialog r20f0 p4 spot) - never appeared in initial RPG
+Pruning (dialog r20f1 p4 spot) - never appeared in initial RPG
+Pruning (dialog r21f0 p4 spot) - never appeared in initial RPG
+Pruning (dialog r21f1 p4 spot) - never appeared in initial RPG
+Pruning (dialog r22f0 p4 spot) - never appeared in initial RPG
+Pruning (dialog r22f1 p4 spot) - never appeared in initial RPG
+Pruning (dialog exit p5 spot) - never appeared in initial RPG
+Pruning (dialog r00f0 p5 spot) - never appeared in initial RPG
+Pruning (dialog r00f1 p5 spot) - never appeared in initial RPG
+Pruning (dialog r01f0 p5 spot) - never appeared in initial RPG
+Pruning (dialog r01f1 p5 spot) - never appeared in initial RPG
+Pruning (dialog r02f0 p5 spot) - never appeared in initial RPG
+Pruning (dialog r02f1 p5 spot) - never appeared in initial RPG
+Pruning (dialog r10f0 p5 spot) - never appeared in initial RPG
+Pruning (dialog r10f1 p5 spot) - never appeared in initial RPG
+Pruning (dialog r11f0 p5 spot) - never appeared in initial RPG
+Pruning (dialog r11f1 p5 spot) - never appeared in initial RPG
+Pruning (dialog r12f0 p5 spot) - never appeared in initial RPG
+Pruning (dialog r12f1 p5 spot) - never appeared in initial RPG
+Pruning (dialog r20f0 p5 spot) - never appeared in initial RPG
+Pruning (dialog r20f1 p5 spot) - never appeared in initial RPG
+Pruning (dialog r21f0 p5 spot) - never appeared in initial RPG
+Pruning (dialog r21f1 p5 spot) - never appeared in initial RPG
+Pruning (dialog r22f0 p5 spot) - never appeared in initial RPG
+Pruning (dialog r22f1 p5 spot) - never appeared in initial RPG
+Pruning (dialog exit p6 spot) - never appeared in initial RPG
+Pruning (dialog r00f0 p6 spot) - never appeared in initial RPG
+Pruning (dialog r00f1 p6 spot) - never appeared in initial RPG
+Pruning (dialog r01f0 p6 spot) - never appeared in initial RPG
+Pruning (dialog r01f1 p6 spot) - never appeared in initial RPG
+Pruning (dialog r02f0 p6 spot) - never appeared in initial RPG
+Pruning (dialog r02f1 p6 spot) - never appeared in initial RPG
+Pruning (dialog r10f0 p6 spot) - never appeared in initial RPG
+Pruning (dialog r10f1 p6 spot) - never appeared in initial RPG
+Pruning (dialog r11f0 p6 spot) - never appeared in initial RPG
+Pruning (dialog r11f1 p6 spot) - never appeared in initial RPG
+Pruning (dialog r12f0 p6 spot) - never appeared in initial RPG
+Pruning (dialog r12f1 p6 spot) - never appeared in initial RPG
+Pruning (dialog r20f0 p6 spot) - never appeared in initial RPG
+Pruning (dialog r20f1 p6 spot) - never appeared in initial RPG
+Pruning (dialog r21f0 p6 spot) - never appeared in initial RPG
+Pruning (dialog r21f1 p6 spot) - never appeared in initial RPG
+Pruning (dialog r22f0 p6 spot) - never appeared in initial RPG
+Pruning (dialog r22f1 p6 spot) - never appeared in initial RPG
+Pruning (dialog exit p7 spot) - never appeared in initial RPG
+Pruning (dialog r00f0 p7 spot) - never appeared in initial RPG
+Pruning (dialog r00f1 p7 spot) - never appeared in initial RPG
+Pruning (dialog r01f0 p7 spot) - never appeared in initial RPG
+Pruning (dialog r01f1 p7 spot) - never appeared in initial RPG
+Pruning (dialog r02f0 p7 spot) - never appeared in initial RPG
+Pruning (dialog r02f1 p7 spot) - never appeared in initial RPG
+Pruning (dialog r10f0 p7 spot) - never appeared in initial RPG
+Pruning (dialog r10f1 p7 spot) - never appeared in initial RPG
+Pruning (dialog r11f0 p7 spot) - never appeared in initial RPG
+Pruning (dialog r11f1 p7 spot) - never appeared in initial RPG
+Pruning (dialog r12f0 p7 spot) - never appeared in initial RPG
+Pruning (dialog r12f1 p7 spot) - never appeared in initial RPG
+Pruning (dialog r20f0 p7 spot) - never appeared in initial RPG
+Pruning (dialog r20f1 p7 spot) - never appeared in initial RPG
+Pruning (dialog r21f0 p7 spot) - never appeared in initial RPG
+Pruning (dialog r21f1 p7 spot) - never appeared in initial RPG
+Pruning (dialog r22f0 p7 spot) - never appeared in initial RPG
+Pruning (dialog r22f1 p7 spot) - never appeared in initial RPG
+Pruning (dialog exit p8 spot) - never appeared in initial RPG
+Pruning (dialog r00f0 p8 spot) - never appeared in initial RPG
+Pruning (dialog r00f1 p8 spot) - never appeared in initial RPG
+Pruning (dialog r01f0 p8 spot) - never appeared in initial RPG
+Pruning (dialog r01f1 p8 spot) - never appeared in initial RPG
+Pruning (dialog r02f0 p8 spot) - never appeared in initial RPG
+Pruning (dialog r02f1 p8 spot) - never appeared in initial RPG
+Pruning (dialog r10f0 p8 spot) - never appeared in initial RPG
+Pruning (dialog r10f1 p8 spot) - never appeared in initial RPG
+Pruning (dialog r11f0 p8 spot) - never appeared in initial RPG
+Pruning (dialog r11f1 p8 spot) - never appeared in initial RPG
+Pruning (dialog r12f0 p8 spot) - never appeared in initial RPG
+Pruning (dialog r12f1 p8 spot) - never appeared in initial RPG
+Pruning (dialog r20f0 p8 spot) - never appeared in initial RPG
+Pruning (dialog r20f1 p8 spot) - never appeared in initial RPG
+Pruning (dialog r21f0 p8 spot) - never appeared in initial RPG
+Pruning (dialog r21f1 p8 spot) - never appeared in initial RPG
+Pruning (dialog r22f0 p8 spot) - never appeared in initial RPG
+Pruning (dialog r22f1 p8 spot) - never appeared in initial RPG
+Pruning (dialog exit p9 spot) - never appeared in initial RPG
+Pruning (dialog r00f0 p9 spot) - never appeared in initial RPG
+Pruning (dialog r00f1 p9 spot) - never appeared in initial RPG
+Pruning (dialog r01f0 p9 spot) - never appeared in initial RPG
+Pruning (dialog r01f1 p9 spot) - never appeared in initial RPG
+Pruning (dialog r02f0 p9 spot) - never appeared in initial RPG
+Pruning (dialog r02f1 p9 spot) - never appeared in initial RPG
+Pruning (dialog r10f0 p9 spot) - never appeared in initial RPG
+Pruning (dialog r10f1 p9 spot) - never appeared in initial RPG
+Pruning (dialog r11f0 p9 spot) - never appeared in initial RPG
+Pruning (dialog r11f1 p9 spot) - never appeared in initial RPG
+Pruning (dialog r12f0 p9 spot) - never appeared in initial RPG
+Pruning (dialog r12f1 p9 spot) - never appeared in initial RPG
+Pruning (dialog r20f0 p9 spot) - never appeared in initial RPG
+Pruning (dialog r20f1 p9 spot) - never appeared in initial RPG
+Pruning (dialog r21f0 p9 spot) - never appeared in initial RPG
+Pruning (dialog r21f1 p9 spot) - never appeared in initial RPG
+Pruning (dialog r22f0 p9 spot) - never appeared in initial RPG
+Pruning (dialog r22f1 p9 spot) - never appeared in initial RPG
+Pruning (report exit p1 spot) - never appeared in initial RPG
+Pruning (report r00f0 p1 spot) - never appeared in initial RPG
+Pruning (report r00f1 p1 spot) - never appeared in initial RPG
+Pruning (report r01f0 p1 spot) - never appeared in initial RPG
+Pruning (report r01f1 p1 spot) - never appeared in initial RPG
+Pruning (report r02f0 p1 spot) - never appeared in initial RPG
+Pruning (report r02f1 p1 spot) - never appeared in initial RPG
+Pruning (report r10f0 p1 spot) - never appeared in initial RPG
+Pruning (report r10f1 p1 spot) - never appeared in initial RPG
+Pruning (report r11f0 p1 spot) - never appeared in initial RPG
+Pruning (report r11f1 p1 spot) - never appeared in initial RPG
+Pruning (report r12f0 p1 spot) - never appeared in initial RPG
+Pruning (report r12f1 p1 spot) - never appeared in initial RPG
+Pruning (report r20f0 p1 spot) - never appeared in initial RPG
+Pruning (report r20f1 p1 spot) - never appeared in initial RPG
+Pruning (report r21f0 p1 spot) - never appeared in initial RPG
+Pruning (report r21f1 p1 spot) - never appeared in initial RPG
+Pruning (report r22f0 p1 spot) - never appeared in initial RPG
+Pruning (report r22f1 p1 spot) - never appeared in initial RPG
+Pruning (report exit p2 spot) - never appeared in initial RPG
+Pruning (report r00f0 p2 spot) - never appeared in initial RPG
+Pruning (report r00f1 p2 spot) - never appeared in initial RPG
+Pruning (report r01f0 p2 spot) - never appeared in initial RPG
+Pruning (report r01f1 p2 spot) - never appeared in initial RPG
+Pruning (report r02f0 p2 spot) - never appeared in initial RPG
+Pruning (report r02f1 p2 spot) - never appeared in initial RPG
+Pruning (report r10f0 p2 spot) - never appeared in initial RPG
+Pruning (report r10f1 p2 spot) - never appeared in initial RPG
+Pruning (report r11f0 p2 spot) - never appeared in initial RPG
+Pruning (report r11f1 p2 spot) - never appeared in initial RPG
+Pruning (report r12f0 p2 spot) - never appeared in initial RPG
+Pruning (report r12f1 p2 spot) - never appeared in initial RPG
+Pruning (report r20f0 p2 spot) - never appeared in initial RPG
+Pruning (report r20f1 p2 spot) - never appeared in initial RPG
+Pruning (report r21f0 p2 spot) - never appeared in initial RPG
+Pruning (report r21f1 p2 spot) - never appeared in initial RPG
+Pruning (report r22f0 p2 spot) - never appeared in initial RPG
+Pruning (report r22f1 p2 spot) - never appeared in initial RPG
+Pruning (report exit p3 spot) - never appeared in initial RPG
+Pruning (report r00f0 p3 spot) - never appeared in initial RPG
+Pruning (report r00f1 p3 spot) - never appeared in initial RPG
+Pruning (report r01f0 p3 spot) - never appeared in initial RPG
+Pruning (report r01f1 p3 spot) - never appeared in initial RPG
+Pruning (report r02f0 p3 spot) - never appeared in initial RPG
+Pruning (report r02f1 p3 spot) - never appeared in initial RPG
+Pruning (report r10f0 p3 spot) - never appeared in initial RPG
+Pruning (report r10f1 p3 spot) - never appeared in initial RPG
+Pruning (report r11f0 p3 spot) - never appeared in initial RPG
+Pruning (report r11f1 p3 spot) - never appeared in initial RPG
+Pruning (report r12f0 p3 spot) - never appeared in initial RPG
+Pruning (report r12f1 p3 spot) - never appeared in initial RPG
+Pruning (report r20f0 p3 spot) - never appeared in initial RPG
+Pruning (report r20f1 p3 spot) - never appeared in initial RPG
+Pruning (report r21f0 p3 spot) - never appeared in initial RPG
+Pruning (report r21f1 p3 spot) - never appeared in initial RPG
+Pruning (report r22f0 p3 spot) - never appeared in initial RPG
+Pruning (report r22f1 p3 spot) - never appeared in initial RPG
+Pruning (report exit p4 spot) - never appeared in initial RPG
+Pruning (report r00f0 p4 spot) - never appeared in initial RPG
+Pruning (report r00f1 p4 spot) - never appeared in initial RPG
+Pruning (report r01f0 p4 spot) - never appeared in initial RPG
+Pruning (report r01f1 p4 spot) - never appeared in initial RPG
+Pruning (report r02f0 p4 spot) - never appeared in initial RPG
+Pruning (report r02f1 p4 spot) - never appeared in initial RPG
+Pruning (report r10f0 p4 spot) - never appeared in initial RPG
+Pruning (report r10f1 p4 spot) - never appeared in initial RPG
+Pruning (report r11f0 p4 spot) - never appeared in initial RPG
+Pruning (report r11f1 p4 spot) - never appeared in initial RPG
+Pruning (report r12f0 p4 spot) - never appeared in initial RPG
+Pruning (report r12f1 p4 spot) - never appeared in initial RPG
+Pruning (report r20f0 p4 spot) - never appeared in initial RPG
+Pruning (report r20f1 p4 spot) - never appeared in initial RPG
+Pruning (report r21f0 p4 spot) - never appeared in initial RPG
+Pruning (report r21f1 p4 spot) - never appeared in initial RPG
+Pruning (report r22f0 p4 spot) - never appeared in initial RPG
+Pruning (report r22f1 p4 spot) - never appeared in initial RPG
+Pruning (report exit p5 spot) - never appeared in initial RPG
+Pruning (report r00f0 p5 spot) - never appeared in initial RPG
+Pruning (report r00f1 p5 spot) - never appeared in initial RPG
+Pruning (report r01f0 p5 spot) - never appeared in initial RPG
+Pruning (report r01f1 p5 spot) - never appeared in initial RPG
+Pruning (report r02f0 p5 spot) - never appeared in initial RPG
+Pruning (report r02f1 p5 spot) - never appeared in initial RPG
+Pruning (report r10f0 p5 spot) - never appeared in initial RPG
+Pruning (report r10f1 p5 spot) - never appeared in initial RPG
+Pruning (report r11f0 p5 spot) - never appeared in initial RPG
+Pruning (report r11f1 p5 spot) - never appeared in initial RPG
+Pruning (report r12f0 p5 spot) - never appeared in initial RPG
+Pruning (report r12f1 p5 spot) - never appeared in initial RPG
+Pruning (report r20f0 p5 spot) - never appeared in initial RPG
+Pruning (report r20f1 p5 spot) - never appeared in initial RPG
+Pruning (report r21f0 p5 spot) - never appeared in initial RPG
+Pruning (report r21f1 p5 spot) - never appeared in initial RPG
+Pruning (report r22f0 p5 spot) - never appeared in initial RPG
+Pruning (report r22f1 p5 spot) - never appeared in initial RPG
+Pruning (report exit p6 spot) - never appeared in initial RPG
+Pruning (report r00f0 p6 spot) - never appeared in initial RPG
+Pruning (report r00f1 p6 spot) - never appeared in initial RPG
+Pruning (report r01f0 p6 spot) - never appeared in initial RPG
+Pruning (report r01f1 p6 spot) - never appeared in initial RPG
+Pruning (report r02f0 p6 spot) - never appeared in initial RPG
+Pruning (report r02f1 p6 spot) - never appeared in initial RPG
+Pruning (report r10f0 p6 spot) - never appeared in initial RPG
+Pruning (report r10f1 p6 spot) - never appeared in initial RPG
+Pruning (report r11f0 p6 spot) - never appeared in initial RPG
+Pruning (report r11f1 p6 spot) - never appeared in initial RPG
+Pruning (report r12f0 p6 spot) - never appeared in initial RPG
+Pruning (report r12f1 p6 spot) - never appeared in initial RPG
+Pruning (report r20f0 p6 spot) - never appeared in initial RPG
+Pruning (report r20f1 p6 spot) - never appeared in initial RPG
+Pruning (report r21f0 p6 spot) - never appeared in initial RPG
+Pruning (report r21f1 p6 spot) - never appeared in initial RPG
+Pruning (report r22f0 p6 spot) - never appeared in initial RPG
+Pruning (report r22f1 p6 spot) - never appeared in initial RPG
+Pruning (report exit p7 spot) - never appeared in initial RPG
+Pruning (report r00f0 p7 spot) - never appeared in initial RPG
+Pruning (report r00f1 p7 spot) - never appeared in initial RPG
+Pruning (report r01f0 p7 spot) - never appeared in initial RPG
+Pruning (report r01f1 p7 spot) - never appeared in initial RPG
+Pruning (report r02f0 p7 spot) - never appeared in initial RPG
+Pruning (report r02f1 p7 spot) - never appeared in initial RPG
+Pruning (report r10f0 p7 spot) - never appeared in initial RPG
+Pruning (report r10f1 p7 spot) - never appeared in initial RPG
+Pruning (report r11f0 p7 spot) - never appeared in initial RPG
+Pruning (report r11f1 p7 spot) - never appeared in initial RPG
+Pruning (report r12f0 p7 spot) - never appeared in initial RPG
+Pruning (report r12f1 p7 spot) - never appeared in initial RPG
+Pruning (report r20f0 p7 spot) - never appeared in initial RPG
+Pruning (report r20f1 p7 spot) - never appeared in initial RPG
+Pruning (report r21f0 p7 spot) - never appeared in initial RPG
+Pruning (report r21f1 p7 spot) - never appeared in initial RPG
+Pruning (report r22f0 p7 spot) - never appeared in initial RPG
+Pruning (report r22f1 p7 spot) - never appeared in initial RPG
+Pruning (report exit p8 spot) - never appeared in initial RPG
+Pruning (report r00f0 p8 spot) - never appeared in initial RPG
+Pruning (report r00f1 p8 spot) - never appeared in initial RPG
+Pruning (report r01f0 p8 spot) - never appeared in initial RPG
+Pruning (report r01f1 p8 spot) - never appeared in initial RPG
+Pruning (report r02f0 p8 spot) - never appeared in initial RPG
+Pruning (report r02f1 p8 spot) - never appeared in initial RPG
+Pruning (report r10f0 p8 spot) - never appeared in initial RPG
+Pruning (report r10f1 p8 spot) - never appeared in initial RPG
+Pruning (report r11f0 p8 spot) - never appeared in initial RPG
+Pruning (report r11f1 p8 spot) - never appeared in initial RPG
+Pruning (report r12f0 p8 spot) - never appeared in initial RPG
+Pruning (report r12f1 p8 spot) - never appeared in initial RPG
+Pruning (report r20f0 p8 spot) - never appeared in initial RPG
+Pruning (report r20f1 p8 spot) - never appeared in initial RPG
+Pruning (report r21f0 p8 spot) - never appeared in initial RPG
+Pruning (report r21f1 p8 spot) - never appeared in initial RPG
+Pruning (report r22f0 p8 spot) - never appeared in initial RPG
+Pruning (report r22f1 p8 spot) - never appeared in initial RPG
+Pruning (report exit p9 spot) - never appeared in initial RPG
+Pruning (report r00f0 p9 spot) - never appeared in initial RPG
+Pruning (report r00f1 p9 spot) - never appeared in initial RPG
+Pruning (report r01f0 p9 spot) - never appeared in initial RPG
+Pruning (report r01f1 p9 spot) - never appeared in initial RPG
+Pruning (report r02f0 p9 spot) - never appeared in initial RPG
+Pruning (report r02f1 p9 spot) - never appeared in initial RPG
+Pruning (report r10f0 p9 spot) - never appeared in initial RPG
+Pruning (report r10f1 p9 spot) - never appeared in initial RPG
+Pruning (report r11f0 p9 spot) - never appeared in initial RPG
+Pruning (report r11f1 p9 spot) - never appeared in initial RPG
+Pruning (report r12f0 p9 spot) - never appeared in initial RPG
+Pruning (report r12f1 p9 spot) - never appeared in initial RPG
+Pruning (report r20f0 p9 spot) - never appeared in initial RPG
+Pruning (report r20f1 p9 spot) - never appeared in initial RPG
+Pruning (report r21f0 p9 spot) - never appeared in initial RPG
+Pruning (report r21f1 p9 spot) - never appeared in initial RPG
+Pruning (report r22f0 p9 spot) - never appeared in initial RPG
+Pruning (report r22f1 p9 spot) - never appeared in initial RPG
+Pruning (check spot exit) - never appeared in initial RPG
+Pruning (check spot r00f0) - never appeared in initial RPG
+Pruning (check spot r01f0) - never appeared in initial RPG
+Pruning (check spot r02f0) - never appeared in initial RPG
+Pruning (check spot r10f0) - never appeared in initial RPG
+Pruning (check spot r11f0) - never appeared in initial RPG
+Pruning (check spot r12f0) - never appeared in initial RPG
+Pruning (check spot r20f0) - never appeared in initial RPG
+Pruning (check spot r21f0) - never appeared in initial RPG
+Pruning (check spot r22f0) - never appeared in initial RPG
+Pruning (checkgas spot r00f0) - never appeared in initial RPG
+Pruning (checkgas spot r00f1) - never appeared in initial RPG
+Pruning (checkgas spot r01f0) - never appeared in initial RPG
+Pruning (checkgas spot r01f1) - never appeared in initial RPG
+Pruning (checkgas spot r02f0) - never appeared in initial RPG
+Pruning (checkgas spot r02f1) - never appeared in initial RPG
+Pruning (checkgas spot r10f0) - never appeared in initial RPG
+Pruning (checkgas spot r10f1) - never appeared in initial RPG
+Pruning (checkgas spot r11f0) - never appeared in initial RPG
+Pruning (checkgas spot r11f1) - never appeared in initial RPG
+Pruning (checkgas spot r12f0) - never appeared in initial RPG
+Pruning (checkgas spot r12f1) - never appeared in initial RPG
+Pruning (checkgas spot r20f0) - never appeared in initial RPG
+Pruning (checkgas spot r20f1) - never appeared in initial RPG
+Pruning (checkgas spot r21f0) - never appeared in initial RPG
+Pruning (checkgas spot r21f1) - never appeared in initial RPG
+Pruning (checkgas spot r22f0) - never appeared in initial RPG
+Pruning (checkgas spot r22f1) - never appeared in initial RPG
+Pruning (checkcrack spot r00f0) - never appeared in initial RPG
+Pruning (checkcrack spot r00f1) - never appeared in initial RPG
+Pruning (checkcrack spot r01f0) - never appeared in initial RPG
+Pruning (checkcrack spot r01f1) - never appeared in initial RPG
+Pruning (checkcrack spot r02f0) - never appeared in initial RPG
+Pruning (checkcrack spot r02f1) - never appeared in initial RPG
+Pruning (checkcrack spot r10f0) - never appeared in initial RPG
+Pruning (checkcrack spot r10f1) - never appeared in initial RPG
+Pruning (checkcrack spot r11f0) - never appeared in initial RPG
+Pruning (checkcrack spot r11f1) - never appeared in initial RPG
+Pruning (checkcrack spot r12f0) - never appeared in initial RPG
+Pruning (checkcrack spot r12f1) - never appeared in initial RPG
+Pruning (checkcrack spot r20f0) - never appeared in initial RPG
+Pruning (checkcrack spot r20f1) - never appeared in initial RPG
+Pruning (checkcrack spot r21f0) - never appeared in initial RPG
+Pruning (checkcrack spot r21f1) - never appeared in initial RPG
+Pruning (checkcrack spot r22f0) - never appeared in initial RPG
+Pruning (checkcrack spot r22f1) - never appeared in initial RPG
+Pruning (checktemp spot r00f0) - never appeared in initial RPG
+Pruning (checktemp spot r00f1) - never appeared in initial RPG
+Pruning (checktemp spot r01f0) - never appeared in initial RPG
+Pruning (checktemp spot r01f1) - never appeared in initial RPG
+Pruning (checktemp spot r02f0) - never appeared in initial RPG
+Pruning (checktemp spot r02f1) - never appeared in initial RPG
+Pruning (checktemp spot r10f0) - never appeared in initial RPG
+Pruning (checktemp spot r10f1) - never appeared in initial RPG
+Pruning (checktemp spot r11f0) - never appeared in initial RPG
+Pruning (checktemp spot r11f1) - never appeared in initial RPG
+Pruning (checktemp spot r12f0) - never appeared in initial RPG
+Pruning (checktemp spot r12f1) - never appeared in initial RPG
+Pruning (checktemp spot r20f0) - never appeared in initial RPG
+Pruning (checktemp spot r20f1) - never appeared in initial RPG
+Pruning (checktemp spot r21f0) - never appeared in initial RPG
+Pruning (checktemp spot r21f1) - never appeared in initial RPG
+Pruning (checktemp spot r22f0) - never appeared in initial RPG
+Pruning (checktemp spot r22f1) - never appeared in initial RPG
+Pruning (reportemergency spot exit) - never appeared in initial RPG
+Pruning (checkstairs spot s21 r02f0 r02f0) - never appeared in initial RPG
+Pruning (checkstairs spot s21 r02f1 r02f0) - never appeared in initial RPG
+Pruning (checkstairs spot s21 r02f0 r02f1) - never appeared in initial RPG
+Pruning (checkstairs spot s21 r02f1 r02f1) - never appeared in initial RPG
+Pruning (checklink spot r00f0 exit) - never appeared in initial RPG
+Pruning (checklink spot exit r00f0) - never appeared in initial RPG
+Pruning (checklink spot r01f0 r00f0) - never appeared in initial RPG
+Pruning (checklink spot r10f0 r00f0) - never appeared in initial RPG
+Pruning (checklink spot r00f0 r01f0) - never appeared in initial RPG
+Pruning (checklink spot r02f0 r01f0) - never appeared in initial RPG
+Pruning (checklink spot r01f0 r02f0) - never appeared in initial RPG
+Pruning (checklink spot r12f0 r02f0) - never appeared in initial RPG
+Pruning (checklink spot r00f0 r10f0) - never appeared in initial RPG
+Pruning (checklink spot r11f0 r10f0) - never appeared in initial RPG
+Pruning (checklink spot r20f0 r10f0) - never appeared in initial RPG
+Pruning (checklink spot r10f0 r11f0) - never appeared in initial RPG
+Pruning (checklink spot r12f0 r11f0) - never appeared in initial RPG
+Pruning (checklink spot r21f0 r11f0) - never appeared in initial RPG
+Pruning (checklink spot r02f0 r12f0) - never appeared in initial RPG
+Pruning (checklink spot r11f0 r12f0) - never appeared in initial RPG
+Pruning (checklink spot r22f0 r12f0) - never appeared in initial RPG
+Pruning (checklink spot r10f0 r20f0) - never appeared in initial RPG
+Pruning (checklink spot r21f0 r20f0) - never appeared in initial RPG
+Pruning (checklink spot r11f0 r21f0) - never appeared in initial RPG
+Pruning (checklink spot r20f0 r21f0) - never appeared in initial RPG
+Pruning (checklink spot r22f0 r21f0) - never appeared in initial RPG
+Pruning (checklink spot r12f0 r22f0) - never appeared in initial RPG
+Pruning (checklink spot r21f0 r22f0) - never appeared in initial RPG
+Pruning (climbstairs spot r02f0 r02f0 s21) - never appeared in initial RPG
+Pruning (climbstairs spot r02f1 r02f0 s21) - never appeared in initial RPG
+Pruning (climbstairs spot r02f0 r02f1 s21) - never appeared in initial RPG
+Pruning (climbstairs spot r02f1 r02f1 s21) - never appeared in initial RPG
+Pruning (checkroomopen spot r00f0) - never appeared in initial RPG
+Pruning (checkroomopen spot r00f1) - never appeared in initial RPG
+Pruning (checkroomopen spot r01f0) - never appeared in initial RPG
+Pruning (checkroomopen spot r01f1) - never appeared in initial RPG
+Pruning (checkroomopen spot r02f0) - never appeared in initial RPG
+Pruning (checkroomopen spot r02f1) - never appeared in initial RPG
+Pruning (checkroomopen spot r10f0) - never appeared in initial RPG
+Pruning (checkroomopen spot r10f1) - never appeared in initial RPG
+Pruning (checkroomopen spot r11f0) - never appeared in initial RPG
+Pruning (checkroomopen spot r11f1) - never appeared in initial RPG
+Pruning (checkroomopen spot r12f0) - never appeared in initial RPG
+Pruning (checkroomopen spot r20f0) - never appeared in initial RPG
+Pruning (checkroomopen spot r20f1) - never appeared in initial RPG
+Pruning (checkroomopen spot r21f0) - never appeared in initial RPG
+Pruning (checkroomopen spot r21f1) - never appeared in initial RPG
+Pruning (checkroomopen spot r22f0) - never appeared in initial RPG
+Pruning (checkroomopen spot r22f1) - never appeared in initial RPG
+Pruning (opendoor spot r12f1) - never appeared in initial RPG
+;; Problem unsolvable!
+; Time 0.02
+[ros2run]: Process exited with failure 1
