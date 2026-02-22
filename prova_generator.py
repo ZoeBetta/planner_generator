@@ -234,7 +234,7 @@ def main():
         [0,1,2]
     ]
 
-    n=150
+    n=250
     for i in range(len(values)):
         for j in range(len(values[i])):
             for k in range(n):
